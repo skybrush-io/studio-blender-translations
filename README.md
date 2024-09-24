@@ -12,10 +12,10 @@ TODO: setup WebLate etc.
 
 1. Open Blender with the "Skybrush Studio for Blender" add-on loaded
 2. Setup the "Manage UI translations" add-on properly:
-    2.1 clone the `blender` and `blender-translations` sources from GitHub
-    2.2 link them to the "Source Root" and "Translation Root" directories
-    2.3 save settings to a proper "Persistent data path" as settings will be lost on next Blender execution
+    1. clone the `blender` and `blender-translations` sources from GitHub
+    2. link them to the "Source Root" and "Translation Root" directories
+    3. save settings to a proper "Persistent data path" as settings will be lost on next Blender execution
 3. In "Blender" / "Render properties" / "I18n Update Translation" press the proper buttons under the "Add-ons" section:
-    3.1 select this repository's `po` directory for the PO inputs/outputs
-    3.2 move the auto-generated `translations_tuple` in the `studio-blender` add-on from `ui_skybrush_studio.py` to `modules/sbstudio/i18n/translations.py` 
+    1. select this repository's `po` directory for the PO inputs/outputs
+    2. move the auto-generated `translations_tuple` in the `studio-blender` add-on from `ui_skybrush_studio.py` to `modules/sbstudio/i18n/translations.py` 
 
