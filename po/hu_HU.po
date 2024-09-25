@@ -1,10 +1,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
-msgstr "Project-Id-Version: Skybrush Studio 3.5.0 (0)"
+msgstr ""
+"Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
+"PO-Revision-Date: 2024-09-26 00:20+0000\n"
+"Last-Translator: István Donkó <istvan.donko@gmail.com>\n"
+"Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/"
+"studio/hu/>\n"
+"Language: hu_HU\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3.1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
-msgstr ""
+msgstr "API Kulcs"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key that is used when communicating with the Skybrush Studio server"
@@ -1985,4 +1995,3 @@ msgstr ""
 #: Add-on Skybrush Studio info: description
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
-
