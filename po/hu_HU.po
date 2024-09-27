@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
-"PO-Revision-Date: 2024-09-26 22:20+0000\n"
-"Last-Translator: Tamás Nepusz <ntamas@protonmail.ch>\n"
+"PO-Revision-Date: 2024-09-27 11:20+0000\n"
+"Last-Translator: Gábor Vásárhelyi <vasarhelyi@collmot.com>\n"
 "Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/"
 "studio/hu/>\n"
 "Language: hu_HU\n"
@@ -18,42 +18,49 @@ msgstr "API kulcs"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key that is used when communicating with the Skybrush Studio server"
-msgstr ""
+msgstr "API kulcs a Skybrush Studio szerver használatához"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Enable experimental features"
-msgstr ""
+msgstr "Kísérleti funkciók engedélyezése"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Whether to enable experimental features in the add-on. Experimental features are currently in a testing phase and may be changed, disabled or removed in future versions without notice"
 msgstr ""
+"Engedélyezze-e a kísérleti funkciókat a bővítményben. A kísérleti funkciók "
+"jelenleg tesztelési fázisban vannak, és a jövőbeli verziókban előzetes "
+"értesítés nélkül módosíthatók, letilthatók vagy eltávolíthatók"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "Server URL"
-msgstr ""
+msgstr "Szerver URL"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "URL of a dedicated Skybrush Studio server if you are using a dedicated server. Leave it empty to use the server provided for the community for free"
 msgstr ""
+"Dedikált Skybrush Studio szerver URL-címe, ha dedikált szervert használ. "
+"Hagyja üresen a közösség számára biztosított szerver ingyenes használatához"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid ""
 "Generates formations from a ZIP of CSV files, a QR code, a mathematical\n"
 "    expression or something similar"
 msgstr ""
+"Alakzatok generálása ZIP vagy CSV fileokból, QR kódból, matematikai\n"
+"függvényekből, vagy valami hasonlóból"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid "Generate Markers"
-msgstr ""
+msgstr "Marker generálás"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgctxt "Operator"
 msgid "Export DAC"
-msgstr ""
+msgstr "DAC exportálás"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgid "Export object trajectories and light animation into .dac format."
-msgstr ""
+msgstr "Pályák és fény animációk exportálása .dac formátumba."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -64,7 +71,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 msgid "Export selected drones only"
-msgstr ""
+msgstr "Csak a kijelölt drónok exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -76,6 +83,8 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 msgid "Export only the selected drones. Uncheck to export all drones, irrespectively of the selection."
 msgstr ""
+"Csak a kijelölt drónok exportálása. Törölje a jelölést az összes drón "
+"exportálásához, a kijelöléstől függetlenül."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -87,7 +96,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Frame range"
-msgstr ""
+msgstr "Képkocka-tartomány"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -99,7 +108,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
-msgstr ""
+msgstr "Válassza ki a művelethez használni kívánt képkocka-tartományt"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -112,7 +121,7 @@ msgstr ""
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid "Storyboard"
-msgstr ""
+msgstr "Forgatókönyv"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -124,7 +133,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 msgid "Use the storyboard to define frame range"
-msgstr ""
+msgstr "Használja a forgatókönyvet a képkocka-tartomány meghatározásához"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'RENDER'
@@ -136,7 +145,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'RENDER'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'RENDER'
 msgid "Use global render frame range set by scene"
-msgstr ""
+msgstr "Használja a jelenet által beállított globális képkocka-tartományt"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'PREVIEW'
@@ -149,6 +158,7 @@ msgstr ""
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'PREVIEW'
 msgid "Use global preview frame range set by scene"
 msgstr ""
+"Használja a jelenethez beállított globális előnézeti képkocka-tartományt"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -160,7 +170,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Current formation or transition"
-msgstr ""
+msgstr "Jelenlegi alakzat vagy átmenet"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -172,20 +182,21 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Use the formation or transition containing the current frame"
-msgstr ""
+msgstr "Használja az aktuális képkockát tartalmazó alakzatot vagy átmenetet"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgctxt "Operator"
 msgid "Export Drotek format"
-msgstr ""
+msgstr "Drotek exportálás"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgid "Export object trajectories and light animation into Drotek's JSON-based format"
 msgstr ""
+"Pályák és fény animációk JSON-alapú Drotek formátumba történő exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Takeoff grid spacing"
-msgstr ""
+msgstr "Felszállórács térköz"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Distance between slots in the takeoff grid."
@@ -193,96 +204,103 @@ msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Use RGBW colors"
-msgstr ""
+msgstr "RGBW színek használata"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Whether to convert colors to RGBW automatically during export"
 msgstr ""
+"Az exportálás során automatikusan konvertálja-e a színeket RGBW formátumba"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgctxt "Operator"
 msgid "Export DSS PATH"
-msgstr ""
+msgstr "DSS PATH exportálás"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgid "Export object trajectories and light animation into DSS PATH format."
-msgstr ""
+msgstr "Pályák és fény animációk DSS PATH formátumba történő exportálása."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgctxt "Operator"
 msgid "Export DSS PATH3"
-msgstr ""
+msgstr "DSS PATH3 exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgid "Export object trajectories and light animation into DSS PATH3 format."
-msgstr ""
+msgstr "Pályák és fény animációk DSS PATH3 formátumba történő exportálása."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 msgid "Light FPS"
-msgstr ""
+msgstr "Fény FPS"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 msgid "Number of samples to take from light programs per second"
-msgstr ""
+msgstr "A fény animációkból vett minták száma másodpercenként"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 msgid "Trajectory FPS"
-msgstr ""
+msgstr "Pálya FPS"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 msgid "Number of samples to take from trajectories per second"
-msgstr ""
+msgstr "A pályákból vett minták száma másodpercenként"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgctxt "Operator"
 msgid "Export Litebee format"
-msgstr ""
+msgstr "Litebee exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgid "Export object trajectories and light animation into Liteebee's binary format"
-msgstr ""
+msgstr "Pályák és fény animációk bináris Litebee formátumba történő exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush
 msgctxt "Operator"
 msgid "Export Skybrush SKYC"
-msgstr ""
+msgstr "Skybrush SKYC exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush
 msgid "Export object trajectories and light animation into the Skybrush compiled format (.skyc)"
 msgstr ""
+"Pályák és fény animációk tömörített Skybrush formátumba (.skyc) történő "
+"exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 msgid "Export yaw"
-msgstr ""
+msgstr "Irányszög exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 msgid "Specifies whether the yaw angle of each drone should be controlled during the show"
 msgstr ""
+"Meghatározza, hogy az egyes drónok irányszögét szabályozni kell-e a műsor "
+"során"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgctxt "Operator"
 msgid "Export Skybrush CSV"
-msgstr ""
+msgstr "Skybrush CSV exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgid "Export object trajectories and light animation into a Skybrush-compatible simple CSV format"
 msgstr ""
+"Pályák és fény animációk Skybrush-kompatibilis CSV formátumba történő "
+"exportálása"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Frame rate"
-msgstr ""
+msgstr "Képkockasebesség"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Number of samples to take from trajectories and lights per second"
-msgstr ""
+msgstr "A pályákból és a fényekből vehető minták száma másodpercenként"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgctxt "Operator"
