@@ -14,7 +14,7 @@ Merging new translations with our add-on is done by the Skybrush team when new t
 
 1. Open Blender with the "Skybrush Studio for Blender" add-on loaded
 2. Setup the "Manage UI translations" add-on properly in "Edit" / "Preferences" / "Add-ons":
-    1. clone the `blender` and `blender-translations` sources from GitHub (`git clone --depth 1` is enough)
+    1. clone the official [blender](https://github.com/blender) and [blender-translations](https://github.com/blender/blender-translations) sources from GitHub (`--depth 1` is enough in `git clone`)
     2. link them to the "Source Root" and "Translation Root" directories
     3. save settings to a proper "Persistent data path" as settings might be lost on next Blender execution
 3. In "Properties" panel / "Render" / "I18n Update Translation" press the "Import PO..." button under the "Add-ons" section:
