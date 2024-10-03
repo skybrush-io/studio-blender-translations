@@ -49,6 +49,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.export_selected
@@ -60,6 +61,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.export_selected
@@ -71,6 +73,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range
@@ -83,6 +86,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range
@@ -95,6 +99,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
@@ -108,6 +113,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
@@ -120,6 +126,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'RENDER'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'RENDER'
@@ -132,6 +139,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'PREVIEW'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'PREVIEW'
@@ -144,6 +152,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
@@ -156,6 +165,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
@@ -208,27 +218,40 @@ msgid "Export object trajectories and light animation into DSS PATH3 format."
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 msgid "Light FPS"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 msgid "Number of samples to take from light programs per second"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 msgid "Trajectory FPS"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 msgid "Number of samples to take from trajectories per second"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky
+msgctxt "Operator"
+msgid "Export EVSKY format"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky
+msgid "Export object trajectories and light animation into EVSKY format."
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
@@ -577,19 +600,19 @@ msgid "Number of drones in the grid"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
-msgid "Intra-slot drones per column"
+msgid "Intra-slot columns"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
-msgid "Number of drones that can be placed within a single slot column"
+msgid "Number of columns in a single slot"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
-msgid "Intra-slot drones per row"
+msgid "Intra-slot rows"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
-msgid "Number of drones that can be placed within a single slot row"
+msgid "Number of rows in a single slot"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.empty_slots
@@ -622,6 +645,26 @@ msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing
 msgid "Spacing between the slots in the grid"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
+msgid "Column spacing"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
+msgid "Spacing between the columns of the slots in the grid"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_advanced_settings
+msgid "Advanced settings for creating the takeoff grid"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
+msgid "Use seperate column spacing"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
+msgid "When checked, a separate column spacing will be used for the takeoff grid"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_deselect_formation
