@@ -2,14 +2,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
-"PO-Revision-Date: 2024-09-27 11:20+0000\n"
-"Last-Translator: Gábor Vásárhelyi <vasarhelyi@collmot.com>\n"
-"Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/studio/hu/>\n"
+"PO-Revision-Date: 2024-10-11 17:20+0000\n"
+"Last-Translator: István Donkó <istvan.donko@gmail.com>\n"
+"Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/"
+"studio/hu/>\n"
 "Language: hu_HU\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -1254,7 +1255,7 @@ msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
 msgid "Safety Check"
-msgstr ""
+msgstr "Biztonsági ellenőrzés"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid ""
@@ -1418,7 +1419,7 @@ msgstr ""
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.use_bloom_effect
 msgid "Use bloom effect"
-msgstr ""
+msgstr "Ragyogás effekt"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.use_bloom_effect
 msgid "Specifies whether the bloom effect should automatically be enabled on the 3D View when the show is loaded"
@@ -2041,19 +2042,14 @@ msgstr ""
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
-
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr ""
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr ""
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr ""
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr ""
-
