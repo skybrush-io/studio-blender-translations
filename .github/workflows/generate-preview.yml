@@ -1,0 +1,19 @@
+name: Generate translation file preview
+on: [push]
+jobs:
+  generate-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up the Deno runtime
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Run generator script
+        run: ./scripts/generate-preview.js
+      - name: Store generated file
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-preview
+          path: translations.py
