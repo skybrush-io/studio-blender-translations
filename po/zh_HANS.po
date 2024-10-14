@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2024-09-30 05:37+0000\n"
+"PO-Revision-Date: 2024-10-14 23:20+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -262,10 +263,9 @@ msgstr "每秒从轨迹中获取的样本数"
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgctxt "Operator"
 msgid "Export EVSKY format"
-msgstr ""
+msgstr "导出EVSKY格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
-#, fuzzy
 msgid "Export object trajectories and light animation into EVSKY format."
 msgstr "将对象轨迹和灯光动画导出为dac格式。"
 
@@ -621,22 +621,20 @@ msgid "Number of drones in the grid"
 msgstr "网格中的无人机数量"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
-#, fuzzy
 msgid "Intra-slot columns"
 msgstr "槽内列间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Number of columns in a single slot"
-msgstr ""
+msgstr "单个槽位中的列数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
-#, fuzzy
 msgid "Intra-slot rows"
 msgstr "槽内行间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
 msgid "Number of rows in a single slot"
-msgstr ""
+msgstr "单个槽位中的行数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.empty_slots
 msgid "Number of drones that could be placed in the slots but are not needed"
@@ -672,24 +670,23 @@ msgstr "网格中槽位之间的间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
 msgid "Column spacing"
-msgstr ""
+msgstr "列间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
-#, fuzzy
 msgid "Spacing between the columns of the slots in the grid"
 msgstr "网格中槽位之间的间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_advanced_settings
 msgid "Advanced settings for creating the takeoff grid"
-msgstr ""
+msgstr "创建起飞网格的高级设置"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
 msgid "Use seperate column spacing"
-msgstr ""
+msgstr "使用单独的列间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
 msgid "When checked, a separate column spacing will be used for the takeoff grid"
-msgstr ""
+msgstr "选中后，将为起飞网格使用单独的列间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_deselect_formation
 msgctxt "Operator"
@@ -2105,19 +2102,14 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
-
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr "每列的槽内无人机数量"
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr "单个槽列中可以放置的无人机数量"
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr "每行的槽内无人机数量"
-
