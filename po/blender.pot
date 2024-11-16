@@ -1348,6 +1348,14 @@ msgstr ""
 msgid "The collection that contains all the objects that are to be treated as drones"
 msgstr ""
 
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
+msgid "Drone radius"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
+msgid "The radius of the drone template to create."
+msgstr ""
+
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_template
 msgid "Drone template"
 msgstr ""

@@ -4,13 +4,12 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "PO-Revision-Date: 2024-10-11 17:20+0000\n"
 "Last-Translator: István Donkó <istvan.donko@gmail.com>\n"
-"Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/"
-"studio/hu/>\n"
+"Language-Team: Hungarian <http://translate.skybrush.io/projects/skybrush/studio/hu/>\n"
 "Language: hu_HU\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.3.1"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -1361,6 +1360,14 @@ msgstr ""
 msgid "The collection that contains all the objects that are to be treated as drones"
 msgstr ""
 
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
+msgid "Drone radius"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
+msgid "The radius of the drone template to create."
+msgstr ""
+
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_template
 msgid "Drone template"
 msgstr ""
@@ -2042,14 +2049,19 @@ msgstr ""
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
-#~ msgid "Number of drones that can be placed within a single slot row"
-#~ msgstr ""
-
-#~ msgid "Intra-slot drones per column"
-#~ msgstr ""
 
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr ""
 
+
+#~ msgid "Intra-slot drones per column"
+#~ msgstr ""
+
+
+#~ msgid "Number of drones that can be placed within a single slot row"
+#~ msgstr ""
+
+
 #~ msgid "Intra-slot drones per row"
 #~ msgstr ""
+
