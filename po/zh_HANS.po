@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2024-10-14 23:20+0000\n"
+"PO-Revision-Date: 2024-12-03 11:55+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -1402,11 +1403,11 @@ msgstr "包含将被视为无人机的所有对象的集合"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
 msgid "Drone radius"
-msgstr ""
+msgstr "无人机半径"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_radius
 msgid "The radius of the drone template to create."
-msgstr ""
+msgstr "用于创建无人机模板的半径。"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_template
 msgid "Drone template"
@@ -2109,19 +2110,14 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr "单个槽列中可以放置的无人机数量"
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr "每列的槽内无人机数量"
 
-
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr "每行的槽内无人机数量"
-
