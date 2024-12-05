@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2024-11-25 19:55+0000\n"
+"PO-Revision-Date: 2024-12-05 10:55+0000\n"
 "Last-Translator: Jamil Rzayev <mrjamilrza@gmail.com>\n"
 "Language-Team: Russian <http://translate.skybrush.io/projects/skybrush/"
 "studio/ru/>\n"
@@ -71,7 +71,7 @@ msgstr "Экспортировать DAC"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgid "Export object trajectories and light animation into .dac format."
-msgstr "Экспортировать траектории объектов и анимации света в формат .dac."
+msgstr "Экспортировать траектории объектов и анимацию света в формат .dac."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -218,7 +218,7 @@ msgid ""
 "Export object trajectories and light animation into Drotek's JSON-based "
 "format"
 msgstr ""
-"Экспортировать траектории объектов и анимации света в формат Drotek на "
+"Экспортировать траектории объектов и анимацию света в формат Drotek на "
 "основе JSON"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
@@ -244,7 +244,7 @@ msgstr "Экспортировать DSS PATH"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgid "Export object trajectories and light animation into DSS PATH format."
-msgstr "Экспортировать траектории объектов и анимации света в формат DSS PATH."
+msgstr "Экспортировать траектории объектов и анимацию света в формат DSS PATH."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgctxt "Operator"
@@ -290,7 +290,7 @@ msgstr "Экспортировать в формат EVSKY"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgid "Export object trajectories and light animation into EVSKY format."
-msgstr "Экспортировать траектории объектов и анимации света в формат EVSKY."
+msgstr "Экспортировать траекторий объектов и анимацию света в формат EVSKY."
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgctxt "Operator"
@@ -301,7 +301,7 @@ msgstr "Экспортировать в формат Litebee"
 msgid ""
 "Export object trajectories and light animation into Liteebee's binary format"
 msgstr ""
-"Экспортировать траектории объектов и анимации света в бинарный формат Litebee"
+"Экспортировать траектории объектов и анимацию света в бинарный формат Litebee"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush
 msgctxt "Operator"
@@ -313,7 +313,7 @@ msgid ""
 "Export object trajectories and light animation into the Skybrush compiled "
 "format (.skyc)"
 msgstr ""
-"Экспортировать траектории объектов и анимации света в скомпилированный "
+"Экспортировать траектории объектов и анимацию света в скомпилированный "
 "формат Skybrush (.skyc)"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
@@ -331,26 +331,28 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgctxt "Operator"
 msgid "Export Skybrush CSV"
-msgstr ""
+msgstr "Экспортировать CSV Skybrush"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgid ""
 "Export object trajectories and light animation into a Skybrush-compatible "
 "simple CSV format"
 msgstr ""
+"Экспортировать траектории объектов и анимацию света в простой формат CSV "
+"совместимый с Skybrush"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Frame rate"
-msgstr ""
+msgstr "Частота кадров"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Number of samples to take from trajectories and lights per second"
-msgstr ""
+msgstr "Число образцов из траекторий и света в секунду"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgctxt "Operator"
 msgid "Export Skybrush PDF"
-msgstr ""
+msgstr "Экспортировать PDF Skybrush"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgid "Export object trajectories into validation plots stored in a .pdf file"
