@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2024-12-03 11:55+0000\n"
+"PO-Revision-Date: 2025-03-18 23:42+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -32,11 +33,11 @@ msgstr "是否在加载项中启用实验功能。实验功能目前处于测试
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "License file"
-msgstr ""
+msgstr "许可证文件"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "Full path to the license file to be used as the API Key (this feature is currently not available)"
-msgstr ""
+msgstr "许可证文件的完整路径，用作API密钥（此功能目前不可用）"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "Server URL"
@@ -310,7 +311,7 @@ msgstr "将对象轨迹和灯光动画导出为Skybrush编译格式(.skyc)"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_cameras
 msgid "Specifies whether cameras defined in Blender should be exported into the show file"
-msgstr ""
+msgstr "指定Blender中定义的摄像机是否应导出到演出文件中"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
@@ -350,12 +351,11 @@ msgstr "将对象轨迹导出到存储在. pdf文件中的验证图中"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
 msgid "Plot projected drift"
-msgstr ""
+msgstr "绘制预计漂移"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
-#, fuzzy
 msgid "Include projected drift plot. Uncheck to exclude projected drift plot from the output."
-msgstr "包括速度图。取消锁定以从输出中排除速度图。"
+msgstr "包括预计漂移图。取消勾选以从输出中排除预计漂移图。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
 msgid "Create individual drone plots"
@@ -400,12 +400,11 @@ msgstr "包括速度图。取消锁定以从输出中排除速度图。"
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz
 msgctxt "Operator"
 msgid "Export Finale 3D VVIZ format"
-msgstr ""
+msgstr "导出Finale 3D VVIZ格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz
-#, fuzzy
 msgid "Export object trajectories and light animation into Finale 3D VVIZ format."
-msgstr "将对象轨迹和灯光动画导出为dac格式。"
+msgstr "将物体轨迹和灯光动画导出为Finale 3D VVIZ格式。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code
 msgctxt "Operator"
@@ -840,9 +839,8 @@ msgstr "为所有无人机添加着陆动作"
 #. :src: bpy.types.SKYBRUSH_OT_land.altitude
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
-#, fuzzy
 msgid "to Altitude"
-msgstr "到海拔高度"
+msgstr "至海拔高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.altitude
 msgid "Altitude to land to"
@@ -850,7 +848,7 @@ msgstr "着陆高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.spacing
 msgid "Minimum distance between drones during landing"
-msgstr ""
+msgstr "无人机降落期间的最小间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.spindown_time
 msgid "Motor spindown delay (sec)"
@@ -863,9 +861,8 @@ msgstr "成功着陆后电机停止转动所需的时间"
 #. :src: bpy.types.SKYBRUSH_OT_land.start_frame
 #. :src: bpy.types.SKYBRUSH_OT_rth.start_frame
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.start_frame
-#, fuzzy
 msgid "at Frame"
-msgstr "在帧处"
+msgstr "在此帧"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.start_frame
 msgid "Start frame of the landing maneuver"
@@ -875,20 +872,19 @@ msgstr "着陆机动的起始帧"
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_custom_spacing
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.use_custom_spacing
 msgid "Use custom spacing"
-msgstr ""
+msgstr "使用自定义间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.use_custom_spacing
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_custom_spacing
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.use_custom_spacing
 msgid "When checked, a custom spacing can be given instead of the default proximity warning threshold"
-msgstr ""
+msgstr "勾选后，可以指定自定义间距，而非默认的接近警告阈值"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.velocity
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.velocity
-#, fuzzy
 msgid "with Velocity"
-msgstr "带速度"
+msgstr "速度为"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.velocity
 msgid "Average vertical velocity during the landing maneuver"
@@ -1107,7 +1103,7 @@ msgstr "指定多阶段降落时，多个无人机在安全距离内占据同一
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.spacing
 msgid "Grid spacing for RTH or minimum distance for smart RTH"
-msgstr ""
+msgstr "返航（RTH）的网格间距或智能返航的最小距离"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.start_frame
 msgid "Start frame of the return-to-home maneuver"
@@ -1126,7 +1122,6 @@ msgid "Average horizontal velocity during the return-to-home maneuver"
 msgstr "返航机动过程中的平均水平速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity_z
-#, fuzzy
 msgid "with Velocity Z"
 msgstr "Z 轴速度"
 
@@ -1206,7 +1201,7 @@ msgstr "指定多阶段起飞时，多个无人机在安全距离内占据同一
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.spacing
 msgid "Minimum distance between drones during takeoff"
-msgstr ""
+msgstr "无人机起飞期间的最小间距"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.start_frame
 msgid "Start frame of the takeoff maneuver"
@@ -1497,12 +1492,11 @@ msgstr "指定无人机网格的发光强度"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.max_acceleration
 msgid "Preferred acceleration"
-msgstr ""
+msgstr "首选加速度"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.max_acceleration
-#, fuzzy
 msgid "Preferred acceleration for drones when planning the duration of transitions between fixed points"
-msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
+msgstr "在规划固定点之间的过渡时间时，无人机的首选加速度"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.random_seed
 msgid "Root random seed value used to generate randomized stuff in this show file"
@@ -1881,23 +1875,20 @@ msgstr ""
 "    "
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_enabled
-#, fuzzy
 msgid "Show acceleration warnings"
-msgstr "显示高度警告"
+msgstr "显示加速度警告"
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_enabled
-#, fuzzy
 msgid "Specifies whether Blender should show a warning when the acceleration of a drone is larger than the acceleration warning threshold"
-msgstr "指定当飞机的高度大于高度警告阈值时，Blender是否应显示警告"
+msgstr "指定当无人机的加速度大于加速度警告阈值时，Blender是否应显示警告"
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_threshold
-#, fuzzy
 msgid "Maximum acceleration"
 msgstr "最大加速度"
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_threshold
 msgid "Maximum acceleration allowed"
-msgstr ""
+msgstr "允许的最大加速度"
 
 #. :src: bpy.types.SafetyCheckProperties.altitude_warning_enabled
 msgid "Show altitude warnings"
@@ -1936,9 +1927,8 @@ msgid "Max acceleration"
 msgstr "最大加速度"
 
 #. :src: bpy.types.SafetyCheckProperties.max_acceleration
-#, fuzzy
 msgid "Maximum acceleration of all drones in the current frame"
-msgstr "当前帧中所有无人机的最大高度"
+msgstr "当前帧中所有无人机的最大加速度"
 
 #. :src: bpy.types.SafetyCheckProperties.max_altitude
 msgid "Max altitude"
@@ -1957,18 +1947,16 @@ msgid "Maximum horizontal velocity of all drones in the current frame"
 msgstr "当前帧中所有无人机的最大水平速度"
 
 #. :src: bpy.types.SafetyCheckProperties.max_velocity_z_down
-#, fuzzy
 msgid "Max Z velocity down"
-msgstr "最大Z速度"
+msgstr "Z轴最大下降速度"
 
 #. :src: bpy.types.SafetyCheckProperties.max_velocity_z_down
 msgid "Maximum vertical velocity of all drones in the current frame downwards"
 msgstr "当前帧中所有无人机的最大垂直速度向下"
 
 #. :src: bpy.types.SafetyCheckProperties.max_velocity_z_up
-#, fuzzy
 msgid "Max Z velocity up"
-msgstr "最大Z速度"
+msgstr "Z轴最大上升速度"
 
 #. :src: bpy.types.SafetyCheckProperties.max_velocity_z_up
 msgid "Maximum vertical velocity of all drones in the current frame upwards"
@@ -2177,20 +2165,20 @@ msgstr "交错过渡中无人机开始时间之间等待的帧数"
 
 #. :src: bpy.types.StoryboardEntry.purpose
 msgid "Purpose"
-msgstr ""
+msgstr "用途"
 
 #. :src: bpy.types.StoryboardEntry.purpose
 msgid "The purpose of the entry in the show. A valid show must start with 0 or more takeoff entries, followed by any number of show entries, and end with 0 or more landing entries."
-msgstr ""
+msgstr "该指令用于演出流程。一个有效的演出必须以0个或多个起飞指令开始，接着执行任意数"
+"量的演出指令，并以0个或多个降落指令结束。"
 
 #. :src: bpy.types.StoryboardEntry.purpose:'TAKEOFF'
-#, fuzzy
 msgid "Takeoff"
 msgstr "起飞"
 
 #. :src: bpy.types.StoryboardEntry.purpose:'LANDING'
 msgid "Landing"
-msgstr ""
+msgstr "降落动作"
 
 #. :src: bpy.types.StoryboardEntry.schedule_overrides_enabled
 msgid "Schedule overrides enabled"
@@ -2236,43 +2224,32 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr "每行的槽内无人机数量"
-
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
 
-
 #~ msgid "Intra-slot drones per column"
 #~ msgstr "每列的槽内无人机数量"
-
 
 #~ msgid "to altitude"
 #~ msgstr "到海拔高度"
 
-
 #~ msgid "Max Z velocity"
 #~ msgstr "最大Z速度"
-
 
 #~ msgid "with velocity"
 #~ msgstr "带速度"
 
-
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
-
 
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr "单个槽列中可以放置的无人机数量"
 
-
 #~ msgid "with velocity Z"
 #~ msgstr "Z 轴速度"
 
-
 #~ msgid "at frame"
 #~ msgstr "在帧处"
-
