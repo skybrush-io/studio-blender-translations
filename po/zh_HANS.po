@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-03-18 23:42+0000\n"
+"PO-Revision-Date: 2025-03-26 12:12+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
 "skybrush/studio/zh_Hans/>\n"
@@ -840,7 +840,7 @@ msgstr "为所有无人机添加着陆动作"
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
 msgid "to Altitude"
-msgstr "至海拔高度"
+msgstr "高度为"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.altitude
 msgid "Altitude to land to"
@@ -1185,7 +1185,8 @@ msgstr "为所有无人机添加起飞动作"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
 msgid "Altitude to take off to"
-msgstr "起飞高度"
+msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人"
+"机起飞后的高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid "Relative Altitude"
