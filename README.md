@@ -25,9 +25,10 @@ Merging new translations with our add-on is done by the Skybrush team when new t
 
 ## How to pull translation source from Skybrush Studio for Blender to this repo?
 
-Updating translation source of this repo is done by the Skybrush team from time to time when a new **Skybrush Studio for Blender** version is released. The procedure is the following:
+Updating translation source of this repo is done by the Skybrush team from time to time when a new **Skybrush Studio for Blender** version is released. The procedure is the following (there are more intuitive alternatives but this one ensures minimal superfluous change in the output):
 
-1. Perform steps 3.1. and 3.2 from the previous section to update the Blender add-on with the latest translations available.
-2. Press the "Refresh PO..." button in the "Manage UI translations" add-on.
-3. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files.
-4. Finally, perform steps 3.3 and 3.4 from the previous section to have a synchronized translation database in the `skybrush-studio-blender` and `skybrush-studio-blender-translations` repositories.
+1. Temporarily copy the auto-generated `translations-tuple` section from `src/modules/sbstudio/i18n/translations.py` to the end of `ui_skybrush_studio.py`.
+2. Open Blender.
+3. Press the "Refresh PO..." button in the "Manage UI translations" add-on.
+4. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files.
+5. Finally, perform steps 3.3 and 3.4 from the previous section to have a synchronized translation database in the `skybrush-studio-blender` and `skybrush-studio-blender-translations` repositories.
