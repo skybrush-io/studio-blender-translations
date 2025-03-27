@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-03-26 12:12+0000\n"
+"PO-Revision-Date: 2025-03-27 22:36+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -1098,7 +1099,7 @@ msgstr "层高"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude_shift
 msgid "Specifies the difference between altitudes of landing layers for multi-phase landings when multiple drones occupy the same slot within safety distance"
-msgstr "指定多阶段降落时，多个无人机在安全距离内占据同一槽位时，降落层之间的高度差"
+msgstr "在多机安全距离内同空域分层降落时，各着陆层的高度差"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.spacing
 msgid "Grid spacing for RTH or minimum distance for smart RTH"
@@ -1184,7 +1185,7 @@ msgstr "为所有无人机添加起飞动作"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
 msgid "Altitude to take off to. In case of layered takeoff the desired takeoff altitude of the lowest layer"
-msgstr ""
+msgstr "起飞高度。若为分层起飞，则为最底层的预定起飞高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid "Relative Altitude"
@@ -1196,7 +1197,8 @@ msgstr "指定起飞高度是否相对于无人机的当前高度。已弃用；
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_shift
 msgid "Specifies the difference between altitudes of takeoff layers for multi-phase takeoffs when multiple drones occupy the same takeoff slot within safety distance."
-msgstr "指定多阶段起飞时，多个无人机在安全距离内占据同一起飞槽位时，起飞层之间的高度差。"
+msgstr "指定分层起飞时各起飞层之间的高度差，适用于多架无人机在安全距离内共用同一起飞"
+"位的情况。"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.spacing
 msgid "Minimum distance between drones during takeoff"
@@ -2222,47 +2224,35 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
-
 #~ msgid "at frame"
 #~ msgstr "在帧处"
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr "每列的槽内无人机数量"
 
-
 #~ msgid "with velocity"
 #~ msgstr "带速度"
-
 
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr "每行的槽内无人机数量"
-
 
 #~ msgid "Max Z velocity"
 #~ msgstr "最大Z速度"
 
-
 #~ msgid "Altitude to take off to"
 #~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
-
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
 
-
 #~ msgid "with velocity Z"
 #~ msgstr "Z 轴速度"
-
 
 #~ msgid "to altitude"
 #~ msgstr "到海拔高度"
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr "单个槽列中可以放置的无人机数量"
-
