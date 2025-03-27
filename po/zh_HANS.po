@@ -6,14 +6,13 @@ msgstr ""
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
 "PO-Revision-Date: 2025-03-26 12:12+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
-"skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.3.1"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -1184,9 +1183,8 @@ msgid "Add a takeoff maneuver to all the drones"
 msgstr "为所有无人机添加起飞动作"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
-msgid "Altitude to take off to"
-msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人"
-"机起飞后的高度"
+msgid "Altitude to take off to. In case of layered takeoff the desired takeoff altitude of the lowest layer"
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid "Relative Altitude"
@@ -2170,8 +2168,7 @@ msgstr "用途"
 
 #. :src: bpy.types.StoryboardEntry.purpose
 msgid "The purpose of the entry in the show. A valid show must start with 0 or more takeoff entries, followed by any number of show entries, and end with 0 or more landing entries."
-msgstr "该指令用于演出流程。一个有效的演出必须以0个或多个起飞指令开始，接着执行任意数"
-"量的演出指令，并以0个或多个降落指令结束。"
+msgstr "该指令用于演出流程。一个有效的演出必须以0个或多个起飞指令开始，接着执行任意数量的演出指令，并以0个或多个降落指令结束。"
 
 #. :src: bpy.types.StoryboardEntry.purpose:'TAKEOFF'
 msgid "Takeoff"
@@ -2225,32 +2222,47 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
-#~ msgid "Intra-slot drones per row"
-#~ msgstr "每行的槽内无人机数量"
 
-#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
-#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
+#~ msgid "at frame"
+#~ msgstr "在帧处"
+
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr "每列的槽内无人机数量"
 
-#~ msgid "to altitude"
-#~ msgstr "到海拔高度"
-
-#~ msgid "Max Z velocity"
-#~ msgstr "最大Z速度"
 
 #~ msgid "with velocity"
 #~ msgstr "带速度"
 
+
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
 
-#~ msgid "Number of drones that can be placed within a single slot column"
-#~ msgstr "单个槽列中可以放置的无人机数量"
+
+#~ msgid "Intra-slot drones per row"
+#~ msgstr "每行的槽内无人机数量"
+
+
+#~ msgid "Max Z velocity"
+#~ msgstr "最大Z速度"
+
+
+#~ msgid "Altitude to take off to"
+#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+
+
+#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
+#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
+
 
 #~ msgid "with velocity Z"
 #~ msgstr "Z 轴速度"
 
-#~ msgid "at frame"
-#~ msgstr "在帧处"
+
+#~ msgid "to altitude"
+#~ msgstr "到海拔高度"
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr "单个槽列中可以放置的无人机数量"
+

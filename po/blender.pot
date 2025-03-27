@@ -1153,7 +1153,7 @@ msgid "Add a takeoff maneuver to all the drones"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
-msgid "Altitude to take off to"
+msgid "Altitude to take off to. In case of layered takeoff the desired takeoff altitude of the lowest layer"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative

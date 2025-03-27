@@ -1166,7 +1166,7 @@ msgid "Add a takeoff maneuver to all the drones"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
-msgid "Altitude to take off to"
+msgid "Altitude to take off to. In case of layered takeoff the desired takeoff altitude of the lowest layer"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
@@ -2164,23 +2164,11 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
 
-#~ msgid "Intra-slot drones per row"
-#~ msgstr ""
-
-
-#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
+#~ msgid "at frame"
 #~ msgstr ""
 
 
 #~ msgid "Intra-slot drones per column"
-#~ msgstr ""
-
-
-#~ msgid "to altitude"
-#~ msgstr ""
-
-
-#~ msgid "Max Z velocity"
 #~ msgstr ""
 
 
@@ -2192,7 +2180,19 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgid "Intra-slot drones per row"
+#~ msgstr ""
+
+
+#~ msgid "Max Z velocity"
+#~ msgstr ""
+
+
+#~ msgid "Altitude to take off to"
+#~ msgstr ""
+
+
+#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
 
@@ -2200,6 +2200,10 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "at frame"
+#~ msgid "to altitude"
+#~ msgstr ""
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr ""
 
