@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-03-27 22:36+0000\n"
+"PO-Revision-Date: 2025-04-08 10:12+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
 "skybrush/studio/zh_Hans/>\n"
@@ -667,7 +667,7 @@ msgstr "网格中的无人机数量"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Intra-slot columns"
-msgstr "槽内列间距"
+msgstr "槽内列数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Number of columns in a single slot"
@@ -675,7 +675,7 @@ msgstr "单个槽位中的列数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
 msgid "Intra-slot rows"
-msgstr "槽内行间距"
+msgstr "槽内行数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
 msgid "Number of rows in a single slot"
