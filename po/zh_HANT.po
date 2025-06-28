@@ -4,64 +4,69 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: __POT__\n"
+"PO-Revision-Date: 2025-06-28 20:56+0000\n"
+"Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hant/>\n"
+"Language: zh_HANT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
-msgstr ""
+msgstr "API 金鑰"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key that is used when communicating with the Skybrush Studio server"
-msgstr ""
+msgstr "與 Skybrush Studio 伺服器通訊時使用的 API 金鑰"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Enable experimental features"
-msgstr ""
+msgstr "啟用實驗性功能"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Whether to enable experimental features in the add-on. Experimental features are currently in a testing phase and may be changed, disabled or removed in future versions without notice"
-msgstr ""
+msgstr "是否啟用此擴充功能的實驗性功能。這些功能目前處於測試階段，"
+"未來版本可能會在未事先通知的情況下變更\\停用或移除"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "License file"
-msgstr ""
+msgstr "授權許可檔"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "Full path to the license file to be used as the API Key (this feature is currently not available)"
-msgstr ""
+msgstr "用作 API 金鑰的授權許可檔完整路徑（此功能目前尚未開放）"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "Server URL"
-msgstr ""
+msgstr "伺服器網址"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "URL of a dedicated Skybrush Studio server if you are using a dedicated server. Leave it empty to use the server provided for the community for free"
-msgstr ""
+msgstr "專用 Skybrush Studio "
+"伺服器的網址（若使用自架伺服器）留空則免費使用社群版公用伺服器"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid ""
 "Generates formations from a ZIP of CSV files, a QR code, a mathematical\n"
 "    expression or something similar"
-msgstr ""
+msgstr "根據 ZIP 壓縮檔中的 CSV 檔案QR 碼數學運算式或其他類似來源生成編隊"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid "Generate Markers"
-msgstr ""
+msgstr "生成標記點"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgctxt "Operator"
 msgid "Export DAC"
-msgstr ""
+msgstr "汇出DAC格式档案"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgid "Export object trajectories and light animation into .dac format."
-msgstr ""
+msgstr "將物體軌跡與燈光動畫匯出為 .dac 格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -74,7 +79,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
 msgid "Export selected drones only"
-msgstr ""
+msgstr "僅匯出選取的無人機"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -87,7 +92,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
 msgid "Export only the selected drones. Uncheck to export all drones, irrespectively of the selection."
-msgstr ""
+msgstr "僅匯出選取的無人機。取消勾選則不論選擇狀態匯出所有無人機。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -101,7 +106,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Frame range"
-msgstr ""
+msgstr "影格範圍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -115,7 +120,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
-msgstr ""
+msgstr "選擇要用於此操作的影格範圍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -130,7 +135,7 @@ msgstr ""
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid "Storyboard"
-msgstr ""
+msgstr "分鏡表"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -144,7 +149,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 msgid "Use the storyboard to define frame range"
-msgstr ""
+msgstr "使用分鏡表來定義影格範圍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'RENDER'
@@ -158,7 +163,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'RENDER'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'RENDER'
 msgid "Use global render frame range set by scene"
-msgstr ""
+msgstr "使用場景設定的全局渲染影格範圍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'PREVIEW'
@@ -172,7 +177,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'PREVIEW'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'PREVIEW'
 msgid "Use global preview frame range set by scene"
-msgstr ""
+msgstr "使用場景設定的全局預覽影格範圍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -186,7 +191,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Current formation or transition"
-msgstr ""
+msgstr "當前隊形與過場"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -200,50 +205,50 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Use the formation or transition containing the current frame"
-msgstr ""
+msgstr "採用含當前畫格的隊形與過場"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgctxt "Operator"
 msgid "Export Drotek format"
-msgstr ""
+msgstr "匯出 Drotek 格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgid "Export object trajectories and light animation into Drotek's JSON-based format"
-msgstr ""
+msgstr "將物體軌跡與燈光動畫匯出為 Drotek 的 JSON 格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Takeoff grid spacing"
-msgstr ""
+msgstr "起飛網格間距"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Distance between slots in the takeoff grid."
-msgstr ""
+msgstr "起飛網格中槽位間的距離。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Use RGBW colors"
-msgstr ""
+msgstr "使用 RGBW 顏色"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Whether to convert colors to RGBW automatically during export"
-msgstr ""
+msgstr "導出時是否自動將顏色轉換為 RGBW"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgctxt "Operator"
 msgid "Export DSS PATH"
-msgstr ""
+msgstr "導出 DSS PATH"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgid "Export object trajectories and light animation into DSS PATH format."
-msgstr ""
+msgstr "將物件軌跡和燈光動畫匯出為 DSS PATH 格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgctxt "Operator"
 msgid "Export DSS PATH3"
-msgstr ""
+msgstr "導出 DSS PATH3"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgid "Export object trajectories and light animation into DSS PATH3 format."
-msgstr ""
+msgstr "將物件軌跡和燈光動畫匯出為 DSS PATH3 格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
@@ -251,7 +256,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
 msgid "Light FPS"
-msgstr ""
+msgstr "燈光影格率"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
@@ -259,7 +264,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
 msgid "Number of samples to take from light programs per second"
-msgstr ""
+msgstr "每秒從光程序中採集的樣本數"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
@@ -267,7 +272,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
 msgid "Trajectory FPS"
-msgstr ""
+msgstr "軌跡FPS"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
@@ -275,7 +280,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
 msgid "Number of samples to take from trajectories per second"
-msgstr ""
+msgstr "每秒從軌跡中採集的樣本數量"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgctxt "Operator"
@@ -2160,47 +2165,35 @@ msgstr ""
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
-
 #~ msgid "at frame"
 #~ msgstr ""
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr ""
 
-
 #~ msgid "with velocity"
 #~ msgstr ""
-
 
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr ""
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr ""
-
 
 #~ msgid "Max Z velocity"
 #~ msgstr ""
 
-
 #~ msgid "Altitude to take off to"
 #~ msgstr ""
-
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
-
 #~ msgid "with velocity Z"
 #~ msgstr ""
-
 
 #~ msgid "to altitude"
 #~ msgstr ""
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr ""
-
