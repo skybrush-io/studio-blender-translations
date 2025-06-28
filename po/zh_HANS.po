@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-04-08 10:12+0000\n"
+"PO-Revision-Date: 2025-06-28 15:16+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
 "skybrush/studio/zh_Hans/>\n"
@@ -1014,7 +1014,7 @@ msgstr "移除灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_remove_light_effect
 msgid "Remove the selected light effect from the show"
-msgstr "从显示中删除选定的灯光效果"
+msgstr "从表演中删除选定的灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_remove_schedule_override_entry
 msgctxt "Operator"
@@ -1501,11 +1501,11 @@ msgstr "在规划固定点之间的过渡时间时，无人机的首选加速度
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.random_seed
 msgid "Root random seed value used to generate randomized stuff in this show file"
-msgstr "根随机种子值，用于在此显示文件中生成随机内容"
+msgstr "根随机种子值，用于在此表演文件中生成随机内容"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_type
 msgid "Show type"
-msgstr "显示类型"
+msgstr "表演类型"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_type
 msgid "Specifies whether the drone show is an outdoor or an indoor show"
