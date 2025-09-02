@@ -4,64 +4,70 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: __POT__\n"
+"PO-Revision-Date: 2025-09-02 16:34+0000\n"
+"Last-Translator: Kazusumi Ogihara <ogihara.iti@gmail.com>\n"
+"Language-Team: Japanese <http://translate.skybrush.io/projects/skybrush/"
+"studio/ja/>\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
-msgstr ""
+msgstr "APIキー"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key that is used when communicating with the Skybrush Studio server"
-msgstr ""
+msgstr "APIキーはSkybrush Studioサーバと接続する際に使用されます"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Enable experimental features"
-msgstr ""
+msgstr "実験的機能を有効化"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.enable_experimental_features
 msgid "Whether to enable experimental features in the add-on. Experimental features are currently in a testing phase and may be changed, disabled or removed in future versions without notice"
-msgstr ""
+msgstr "アドオンの実験的機能を有効にします。実験的機能はテスト段階のため、将来のバー"
+"ジョンで予告なく変更、無効化、または削除される可能性があります。"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "License file"
-msgstr ""
+msgstr "ライセンスファイル"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.license_file
 msgid "Full path to the license file to be used as the API Key (this feature is currently not available)"
-msgstr ""
+msgstr "APIキーとして使用するライセンスファイルの完全パス（この機能は現在利用できませ"
+"ん）"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "Server URL"
-msgstr ""
+msgstr "サーバURL"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid "URL of a dedicated Skybrush Studio server if you are using a dedicated server. Leave it empty to use the server provided for the community for free"
-msgstr ""
+msgstr "Skybrush Studio専用サーバURL(コミュニティ向けに無料で提供されているサーバーを"
+"使用する場合は空欄のままにしてください。)"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid ""
 "Generates formations from a ZIP of CSV files, a QR code, a mathematical\n"
 "    expression or something similar"
-msgstr ""
+msgstr "ZIP化されたCSVファイル、QRコードなどからフォーメーションを生成"
 
 #. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
 msgid "Generate Markers"
-msgstr ""
+msgstr "マーカーを生成"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgctxt "Operator"
 msgid "Export DAC"
-msgstr ""
+msgstr "DACファイルをエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgid "Export object trajectories and light animation into .dac format."
-msgstr ""
+msgstr "軌道とライトアニメーションを.dac形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -74,7 +80,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
 msgid "Export selected drones only"
-msgstr ""
+msgstr "選択したドローンをエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
@@ -87,7 +93,8 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
 msgid "Export only the selected drones. Uncheck to export all drones, irrespectively of the selection."
-msgstr ""
+msgstr "選択したドローンをエクスポート。すべてのドローンをエクスポートするには、すべ"
+"てのチェックを外してください。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -101,7 +108,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Frame range"
-msgstr ""
+msgstr "フレーム範囲"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
@@ -115,7 +122,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
-msgstr ""
+msgstr "このオペレーションのフレーム範囲を選択してください"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -130,7 +137,7 @@ msgstr ""
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid "Storyboard"
-msgstr ""
+msgstr "ストーリーボード"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
@@ -144,7 +151,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 msgid "Use the storyboard to define frame range"
-msgstr ""
+msgstr "ストーリーボードからフレーム範囲を設定"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'RENDER'
@@ -158,7 +165,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'RENDER'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'RENDER'
 msgid "Use global render frame range set by scene"
-msgstr ""
+msgstr "シーンに設定されたグローバルなレンダリングフレーム範囲を使用"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'PREVIEW'
@@ -172,7 +179,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'PREVIEW'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'PREVIEW'
 msgid "Use global preview frame range set by scene"
-msgstr ""
+msgstr "シーンに設定されたプライベートなレンダリングフレーム範囲を使用"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -186,7 +193,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Current formation or transition"
-msgstr ""
+msgstr "現在のフォーメーションまたはトランジション"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -200,50 +207,50 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Use the formation or transition containing the current frame"
-msgstr ""
+msgstr "現在のフレームに含まれるフォーメーションまたはトランジションを使用"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgctxt "Operator"
 msgid "Export Drotek format"
-msgstr ""
+msgstr "Drotek形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgid "Export object trajectories and light animation into Drotek's JSON-based format"
-msgstr ""
+msgstr "軌道とライトアニメーションをDrotek JSON形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Takeoff grid spacing"
-msgstr ""
+msgstr "離陸グリッド間隔"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.spacing
 msgid "Distance between slots in the takeoff grid."
-msgstr ""
+msgstr "離陸グリッドにおけるスロット間の距離"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Use RGBW colors"
-msgstr ""
+msgstr "RGBW方式を使用"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.use_rgbw
 msgid "Whether to convert colors to RGBW automatically during export"
-msgstr ""
+msgstr "エクスポート時に色をRGBW形式に変換します"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgctxt "Operator"
 msgid "Export DSS PATH"
-msgstr ""
+msgstr "DSS PATHをエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path
 msgid "Export object trajectories and light animation into DSS PATH format."
-msgstr ""
+msgstr "軌道とライトアニメーションをDSS PATH形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgctxt "Operator"
 msgid "Export DSS PATH3"
-msgstr ""
+msgstr "DSS PATH3をエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3
 msgid "Export object trajectories and light animation into DSS PATH3 format."
-msgstr ""
+msgstr "軌道とライトアニメーションをDSS PATH3形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
@@ -251,7 +258,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
 msgid "Light FPS"
-msgstr ""
+msgstr "ライトFPS"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
@@ -259,7 +266,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
 msgid "Number of samples to take from light programs per second"
-msgstr ""
+msgstr "1秒あたりに取得するライトプログラムからのサンプル数"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
@@ -267,7 +274,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
 msgid "Trajectory FPS"
-msgstr ""
+msgstr "軌道FPS"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
@@ -275,177 +282,182 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
 msgid "Number of samples to take from trajectories per second"
-msgstr ""
+msgstr "1秒あたりに取得する起動からのサンプル数"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgctxt "Operator"
 msgid "Export EVSKY format"
-msgstr ""
+msgstr "EVSKY形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgid "Export object trajectories and light animation into EVSKY format."
-msgstr ""
+msgstr "軌道とライトアニメーションをSVSKY形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgctxt "Operator"
 msgid "Export Litebee format"
-msgstr ""
+msgstr "Litebee形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgid "Export object trajectories and light animation into Liteebee's binary format"
-msgstr ""
+msgstr "軌道とライトアニメーションをLitebee形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush
 msgctxt "Operator"
 msgid "Export Skybrush SKYC"
-msgstr ""
+msgstr "Skybrush SKYC形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush
 msgid "Export object trajectories and light animation into the Skybrush compiled format (.skyc)"
-msgstr ""
+msgstr "軌道とライトアニメーションをSKYC形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_cameras
 msgid "Specifies whether cameras defined in Blender should be exported into the show file"
-msgstr ""
+msgstr "Blenderで定義されたカメラをショーファイルにエクスポートするかどうか指定します"
+"。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
 msgid "Export yaw"
-msgstr ""
+msgstr "ヨーをエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
 msgid "Specifies whether the yaw angle of each drone should be controlled during the show"
-msgstr ""
+msgstr "各ドローンのヨー角をショー中に制御するかどうかを指定します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgctxt "Operator"
 msgid "Export Skybrush CSV"
-msgstr ""
+msgstr "Skybrush CSV形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgid "Export object trajectories and light animation into a Skybrush-compatible simple CSV format"
-msgstr ""
+msgstr "軌跡とライトアニメーションをSkybrush互換のCSV形式でエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Frame rate"
-msgstr ""
+msgstr "フレームレート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.output_fps
 msgid "Number of samples to take from trajectories and lights per second"
-msgstr ""
+msgstr "1秒あたりに軌道と光から取得するサンプル数"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgctxt "Operator"
 msgid "Export Skybrush PDF"
-msgstr ""
+msgstr "Skybrush PDF形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgid "Export object trajectories into validation plots stored in a .pdf file"
-msgstr ""
+msgstr "オブジェクトの軌跡を検証プロットとして.pdfファイルにエクスポートします。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
 msgid "Plot projected drift"
-msgstr ""
+msgstr "プロット予測ドリフト"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
 msgid "Include projected drift plot. Uncheck to exclude projected drift plot from the output."
-msgstr ""
+msgstr "投影ドリフトプロットを含めます。チェックを外すと、出力から投影ドリフトプロッ"
+"トを除外します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
 msgid "Create individual drone plots"
-msgstr ""
+msgstr "個別のドローンプロットを作成"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
 msgid "Include individual drone plots.Uncheck to exclude per-drone plots from the output."
-msgstr ""
+msgstr "個々のドローンのプロットを含めます。チェックを外すと、出力からドローンごとの"
+"プロットを除外します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
 msgid "Plot nearest neighbor"
-msgstr ""
+msgstr "プロットの最近傍"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
 msgid "Include nearest neighbor plot. Uncheck to exclude nearest neighbor plot from the output."
-msgstr ""
+msgstr "最近傍プロットを含めます。チェックを外すと、出力から最近傍プロットを除外しま"
+"す。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
 msgid "Plot all nearest neighbors"
-msgstr ""
+msgstr "すべての最近傍点をプロット"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
 msgid "Include all nearest neighbors plot. Uncheck to exclude all nearest neighbor plot from the output."
-msgstr ""
+msgstr "すべての最近傍プロットを含めます。チェックを外すと、出力からすべての最近傍プ"
+"ロットを除外します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
 msgid "Plot positions"
-msgstr ""
+msgstr "位置をプロット"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
 msgid "Include position plot. Uncheck to exclude position plot from the output."
-msgstr ""
+msgstr "位置プロットを含めます。チェックを外すと、出力から位置プロットを除外します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
 msgid "Plot velocities"
-msgstr ""
+msgstr "速度をプロット"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
 msgid "Include velocity plot. Uncheck to exclude velocity plot from the output."
-msgstr ""
+msgstr "速度プロットを含めます。チェックを外すと、出力から速度プロットを除外します。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz
 msgctxt "Operator"
 msgid "Export Finale 3D VVIZ format"
-msgstr ""
+msgstr "Finale 3D VVIZ形式でエクスポート"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz
 msgid "Export object trajectories and light animation into Finale 3D VVIZ format."
-msgstr ""
+msgstr "軌道とライトアニメーションをFinale 3D VVIZ形式でエクスポートします。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code
 msgctxt "Operator"
 msgid "From QR Code"
-msgstr ""
+msgstr "QRコードから"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code
 msgid "Creates a new formation whose points are arranged in the shape of a QR code."
-msgstr ""
+msgstr "QRコードの形に点を配置した新しい図形を作成します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level
 msgid "Error correction"
-msgstr ""
+msgstr "エラー訂正"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level
 msgid "Error correction level to use in the QR code"
-msgstr ""
+msgstr "QRコードで使用するエラー訂正レベル"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'L'
 msgid "Level L (7%)"
-msgstr ""
+msgstr "Level L (7%)"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'M'
 msgid "Level M (15%)"
-msgstr ""
+msgstr "Level M (15%)"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'Q'
 msgid "Level Q (25%)"
-msgstr ""
+msgstr "Level Q (25%)"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'H'
 msgid "Level H (30%)"
-msgstr ""
+msgstr "Level H (30%)"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.spacing
 msgid "Spacing between the drones in the QR code"
-msgstr ""
+msgstr "QRコード内のドローンの間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.text
 msgid "Text to embed in the QR code"
-msgstr ""
+msgstr "QRコードに埋め込むテキスト"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv
 msgctxt "Operator"
 msgid "Import Skybrush static CSV"
-msgstr ""
+msgstr "Skybrushの静的CSVをインポート"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv
 msgid ""
@@ -453,45 +465,49 @@ msgid ""
 "    single formation snapshot) to the currently selected formation.\n"
 "    "
 msgstr ""
+"Skybrush互換の静的.csvファイル（単一のフォーメーションスナップショットを含む"
+"）からマーカーを追加し、現在選択されているフォーメーションに適用します。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv.import_colors
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.import_colors
 msgid "Import colors"
-msgstr ""
+msgstr "色をインポート"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv.import_colors
 msgid "Import colors from the CSV file into a light effect"
-msgstr ""
+msgstr "CSVファイルから色をインポートしてライトエフェクトに適用します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg
 msgctxt "Operator"
 msgid "Import Skybrush SVG"
-msgstr ""
+msgstr "Skybrush SVGをインポート"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg
 msgid "Creates a new formation whose points are sampled from an SVG file."
-msgstr ""
+msgstr "SVGファイルからポイントをサンプリングして、新しいフォーメーションを作成します"
+"。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.angle
 msgid "Maximum angle change at nodes to treat the path continuous around them."
-msgstr ""
+msgstr "パスをその周囲で連続的に扱うためのノードにおける最大角度変化量。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.count
 msgid "Number of markers to be generated"
-msgstr ""
+msgstr "生成するマーカー数"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.import_colors
 msgid "Import colors from the SVG file into a light effect"
-msgstr ""
+msgstr "SVGファイルから色をインポートしてライトエフェクトに適用します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.size
 msgid "Maximum extent of the imported formation along the main axes"
-msgstr ""
+msgstr "主軸に沿ったインポートするフォーメーションの最大範囲"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv
 msgctxt "Operator"
 msgid "Import Skybrush zipped CSV"
-msgstr ""
+msgstr "ZIP化されたSkybrush CSVをインポート"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv
 msgid ""
@@ -500,159 +516,167 @@ msgid ""
 "    selected formation.\n"
 "    "
 msgstr ""
+"Skybrush互換の.zip圧縮動的.csvファイル（各ファイルが単一ドローンのベイク済み"
+"アニメーションを含む）からマーカーを追加し、現在選択されているフォーメーショ"
+"ンに配置します。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv.update_duration
 msgid "Update duration of formation"
-msgstr ""
+msgstr "フォーメーションの期間を更新"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv.update_duration
 msgid "Update the duration of the storyboard entry based on animation length"
-msgstr ""
+msgstr "アニメーションの長さに基づいてストーリーボードエントリの期間を更新する"
 
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgctxt "Operator"
 msgid "Append Selected Formation to Storyboard"
-msgstr ""
+msgstr "選択したフォーメーションをストーリーボードに追加"
 
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgid "Appends the selected formation to the end of the show, planning the transition between the last formation and the new one"
-msgstr ""
+msgstr "選択したフォーメーションをショーの最後に追加し、最後のフォーメーションと新し"
+"いフォーメーションの間のトランジションを計画します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgctxt "Operator"
 msgid "Apply Colors to Selected Drones"
-msgstr ""
+msgstr "選択したドローンに色を適用"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid "Applies the current primary or secondary color from the LED control panel to the selected drones, optionally creating a gradient."
-msgstr ""
+msgstr "LEDコントロールパネルの現在のプライマリカラーまたはセカンダリカラーを選択した"
+"ドローンに適用し、オプションでグラデーションを作成します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.color
 msgid "Color to apply"
-msgstr ""
+msgstr "適用する色"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.color:'PRIMARY'
 msgid "Primary (1)"
-msgstr ""
+msgstr "プライマリ (1)"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.color:'SECONDARY'
 msgid "Secondary (2)"
-msgstr ""
+msgstr "セカンダリ (2)"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.color:'GRADIENT'
 msgid "Gradient (1 -> 2)"
-msgstr ""
+msgstr "グラデーション (1 -> 2)"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.fade
 msgid "Fade to color"
-msgstr ""
+msgstr "フェード・トゥ・カラー"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.fade
 msgid "Add a keyframe to fade to this color from the previous keyframe instead of stepping to this color abruptly"
-msgstr ""
+msgstr "前のキーフレームからこの色へフェードするようにキーフレームを追加し、急にこの"
+"色へ切り替わらないようにします。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode
 msgid "Order in gradient"
-msgstr ""
+msgstr "グラデーション順序付け"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'X'
 msgid "X coordinate"
-msgstr ""
+msgstr "X軸"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'Y'
 msgid "Y coordinate"
-msgstr ""
+msgstr "Y軸"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'Z'
 msgid "Z coordinate"
-msgstr ""
+msgstr "Z軸"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'DISTANCE'
 msgid "Distance from 3D cursor"
-msgstr ""
+msgstr "3Dカーソルとの距離"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 #. :src: bpy.types.LEDControlPanelProperties.primary_color
 msgid "Primary color"
-msgstr ""
+msgstr "プライマリカラー"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 msgid "Primary color to apply on the selected drones"
-msgstr ""
+msgstr "選択されたドローンに適用するプライマリカラー"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 #. :src: bpy.types.LEDControlPanelProperties.secondary_color
 msgid "Secondary color"
-msgstr ""
+msgstr "セカンダリカラー"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 msgid "Secondary color to apply on the selected drones; used for gradients only"
-msgstr ""
+msgstr "選択されたドローンに適用するセカンダリカラー(グラデーションのみ利用可能)"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_formation
 msgctxt "Operator"
 msgid "Create Formation"
-msgstr ""
+msgstr "フォーメーションを作成"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_formation
 msgid "Creates a new formation in the Formations collection."
-msgstr ""
+msgstr "Formationsコレクションに新しいフォーメーションを作成します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_formation.contents
 msgid "Initialize with"
-msgstr ""
+msgstr "初期化"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_formation.name
 msgid "Name of the new formation"
-msgstr ""
+msgstr "フォーメーションの名前"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_light_effect
 msgctxt "Operator"
 msgid "Create Light Effect"
-msgstr ""
+msgstr "ライトエフェクトを作成"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_light_effect
 msgid "Creates a new light effect at the end of the effect list."
-msgstr ""
+msgstr "エフェクト一覧の末尾に新しいライトエフェクトを追加します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_new_schedule_override_entry
 msgctxt "Operator"
 msgid "Create New Schedule Override"
-msgstr ""
+msgstr "新規スケジュールオーバーライドを作成"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_new_schedule_override_entry
 msgid "Creates a new schedule override for the currently selected storyboard entry."
-msgstr ""
+msgstr "選択中のストーリーボードエントリーの新規スケジュールオーバーライドを作成しま"
+"す。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_new_storyboard_entry
 msgctxt "Operator"
 msgid "Create New Storyboard Entry"
-msgstr ""
+msgstr "新規ストーリボードエントリーを作成"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_new_storyboard_entry
 msgid "Creates a new storyboard entry at the end of the storyboard."
-msgstr ""
+msgstr "ストーリボードの末尾に新規ストーリボードエントリーを追加します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
 msgctxt "Operator"
 msgid "Create Takeoff Grid"
-msgstr ""
+msgstr "離陸グリッドを作成"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
 msgid "Creates the takeoff grid and the corresponding set of drones"
-msgstr ""
+msgstr "ドローンに対応した離陸グリッドを作成します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.columns
 msgid "Number of columns in the takeoff grid"
-msgstr ""
+msgstr "離陸グリッドの列数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones
 msgid "Drone count"
-msgstr ""
+msgstr "ドローン数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones
 msgid "Number of drones in the grid"
-msgstr ""
+msgstr "グリッド内のドローン数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Intra-slot columns"
@@ -2160,47 +2184,35 @@ msgstr ""
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
-
 #~ msgid "at frame"
 #~ msgstr ""
-
 
 #~ msgid "Intra-slot drones per column"
 #~ msgstr ""
 
-
 #~ msgid "with velocity"
 #~ msgstr ""
-
 
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr ""
 
-
 #~ msgid "Intra-slot drones per row"
 #~ msgstr ""
-
 
 #~ msgid "Max Z velocity"
 #~ msgstr ""
 
-
 #~ msgid "Altitude to take off to"
 #~ msgstr ""
-
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
-
 #~ msgid "with velocity Z"
 #~ msgstr ""
-
 
 #~ msgid "to altitude"
 #~ msgstr ""
 
-
 #~ msgid "Number of drones that can be placed within a single slot column"
 #~ msgstr ""
-
