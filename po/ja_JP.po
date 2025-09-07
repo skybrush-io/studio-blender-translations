@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-09-02 16:34+0000\n"
+"PO-Revision-Date: 2025-09-07 13:34+0000\n"
 "Last-Translator: Kazusumi Ogihara <ogihara.iti@gmail.com>\n"
 "Language-Team: Japanese <http://translate.skybrush.io/projects/skybrush/"
 "studio/ja/>\n"
@@ -680,85 +680,85 @@ msgstr "グリッド内のドローン数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Intra-slot columns"
-msgstr ""
+msgstr "スロット内列"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Number of columns in a single slot"
-msgstr ""
+msgstr "単一スロット内の列数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
 msgid "Intra-slot rows"
-msgstr ""
+msgstr "スロット内行"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_row
 msgid "Number of rows in a single slot"
-msgstr ""
+msgstr "単一スロット内の行数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.empty_slots
 msgid "Number of drones that could be placed in the slots but are not needed"
-msgstr ""
+msgstr "スロットに配置可能なものの、必要とされなかったドローンの数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.intra_slot_spacing_col
 msgid "Intra-slot column spacing"
-msgstr ""
+msgstr "スロット内列間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.intra_slot_spacing_col
 msgid "Column spacing between drones within each slot"
-msgstr ""
+msgstr "各スロット内のドローン間の列間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.intra_slot_spacing_row
 msgid "Intra-slot row spacing"
-msgstr ""
+msgstr "スロット内行間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.intra_slot_spacing_row
 msgid "Row spacing between drones within each slot"
-msgstr ""
+msgstr "各スロット内のドローンの列間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.rows
 msgid "Rows"
-msgstr ""
+msgstr "行"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.rows
 msgid "Number of rows in the takeoff grid"
-msgstr ""
+msgstr "テイクオフグリッドの行数"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing
 msgid "Spacing between the slots in the grid"
-msgstr ""
+msgstr "グリッド内のスロット間の間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
 msgid "Column spacing"
-msgstr ""
+msgstr "列間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.spacing_col
 msgid "Spacing between the columns of the slots in the grid"
-msgstr ""
+msgstr "グリッド内のスロット列間の間隔"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_advanced_settings
 msgid "Advanced settings for creating the takeoff grid"
-msgstr ""
+msgstr "テイクオフグリッド作成の高度な設定"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
 msgid "Use seperate column spacing"
-msgstr ""
+msgstr "列間隔を個別に設定する"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_separate_column_spacing
 msgid "When checked, a separate column spacing will be used for the takeoff grid"
-msgstr ""
+msgstr "チェックすると、テイクオフグリッド用に個別の列間隔が使用されます"
 
 #. :src: bpy.types.SKYBRUSH_OT_deselect_formation
 msgctxt "Operator"
 msgid "Deselect Formation"
-msgstr ""
+msgstr "フォーメーションの選択を解除"
 
 #. :src: bpy.types.SKYBRUSH_OT_deselect_formation
 msgid "Removes the selected formation from the selection"
-msgstr ""
+msgstr "選択されたフォーメーションを選択対象から除外します"
 
 #. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
 msgctxt "Operator"
 msgid "Detach Materials from Drone Template"
-msgstr ""
+msgstr "ドローンテンプレートからマテリアルを分離する"
 
 #. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
 msgid ""
@@ -766,65 +766,69 @@ msgid ""
 "    were created from.\n"
 "    "
 msgstr ""
+"ドローンが生成されたテンプレートから、ドローンのマテリアルを分離します。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_duplicate_light_effect
 msgctxt "Operator"
 msgid "Duplicate Light Effect"
-msgstr ""
+msgstr "ライトエフェクトを複製"
 
 #. :src: bpy.types.SKYBRUSH_OT_duplicate_light_effect
 msgid "Duplicates the selected light effect in the effect list"
-msgstr ""
+msgstr "エフェクトリストで選択したライトエフェクトを複製します"
 
 #. :src: bpy.types.SKYBRUSH_OT_fix_constraint_ordering
 msgctxt "Operator"
 msgid "Fix Ordering of Transition Constraints"
-msgstr ""
+msgstr "トランジションコンストレイントの順序を修正する"
 
 #. :src: bpy.types.SKYBRUSH_OT_fix_constraint_ordering
 msgid "Fixes the ordering of transition constraints in the show"
-msgstr ""
+msgstr "ショーにおけるトランジションコンストレイントの順序を修正する"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats
 msgctxt "Operator"
 msgid "Formation Statistics"
-msgstr ""
+msgstr "フォーメーション統計"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats
 msgid "Returns useful statistics about the currently selected formation in the Formations collection."
-msgstr ""
+msgstr "Formationsコレクション内で現在選択されているフォーメーションに関する有用な統"
+"計情報を返します。"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.empty_count
 msgid "# Empties"
-msgstr ""
+msgstr "# エンプティ"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.empty_count
 msgid "Number of empties in all the meshes of the formation that are designated as targets"
-msgstr ""
+msgstr "標的として指定されたフォーメーション内の全メッシュにおける空のメッシュの数"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.marker_count
 msgid "Total Size"
-msgstr ""
+msgstr "合計サイズ"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.marker_count
 msgid "Total number of targets in the formation, including simple meshes and vertex groups"
-msgstr ""
+msgstr "フォーメーション内のターゲット総数（単純メッシュおよび頂点グループを含む）"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.min_distance
 msgid "Minimum distance"
-msgstr ""
+msgstr "最小距離"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.min_distance
 msgid "Minimum distance of any pair of points within the formation"
-msgstr ""
+msgstr "フォーメーション内の任意の2点間の最小距離"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.nonempty_count
 msgid "# Non-empties"
-msgstr ""
+msgstr "# 非エンプティ"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.nonempty_count
 msgid "Number of non-empties in all the meshes of the formation that are designated as targets"
-msgstr ""
+msgstr "目標として指定されたフォーメーション内の全メッシュにおける非エンプティメッシ"
+"ュの数"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.size
 msgid "Size of the axis-aligned bounding box of the mesh in the current frame"
