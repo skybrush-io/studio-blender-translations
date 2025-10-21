@@ -6,14 +6,13 @@ msgstr ""
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
 "PO-Revision-Date: 2025-06-28 15:16+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
-"skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.3.1"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -55,9 +54,145 @@ msgstr ""
 "从一个压缩的CSV文件，一个二维码，一个数学表达式\n"
 "类似的东西生成格式"
 
-#. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
-msgid "Generate Markers"
-msgstr "生成标记"
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
+#, fuzzy
+msgid ""
+"Applies the current primary or secondary color from the LED control\n"
+"    panel to the selected drones, optionally creating a gradient."
+msgstr "将LED控制面板中的当前主色或次色应用于选定的无人机，可选择创建渐变。"
+
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
+msgctxt "Operator"
+msgid "Apply Colors to Selected Drones"
+msgstr "将颜色应用于选定的无人机"
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
+#, fuzzy
+msgid ""
+"Blender operator that creates the takeoff grid and the corresponding set\n"
+"    of drones.\n"
+"    "
+msgstr "创建起飞网格和相应的无人机集"
+
+#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
+msgctxt "Operator"
+msgid "Create Takeoff Grid"
+msgstr "创建起飞网格"
+
+#. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
+msgid ""
+"Detaches the materials of the drones from the template that the drones\n"
+"    were created from.\n"
+"    "
+msgstr ""
+"将无人机的材质与创建它们的模板分离。\n"
+"    "
+
+#. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
+msgctxt "Operator"
+msgid "Detach Materials from Drone Template"
+msgstr "从无人机模板中分离材料"
+
+#. :src: bpy.types.SKYBRUSH_OT_prepare
+msgid ""
+"Blender operator that prepares a Blender file to be used with\n"
+"    Skybrush Studio for Blender.\n"
+"\n"
+"    This involves:\n"
+"\n"
+"    * creating the standard \"Drones\" and \"Formations\" collections if they do not\n"
+"      exist yet\n"
+"    * creating a drone template and putting it in the \"Templates\" collection\n"
+"    "
+msgstr ""
+"为与 Skybrush Studio for Blender 配合使用准备 Blender 文件的操作员。\n"
+"\n"
+"此操作包括：\n"
+"\n"
+"如果尚未存在，则创建标准的 \"Drones\" 和 \"Formations\" 集合\n"
+"\n"
+"创建无人机模板并将其放入 \"Templates\" 集合\n"
+"    "
+
+#. :src: bpy.types.SKYBRUSH_OT_prepare
+msgctxt "Operator"
+msgid "Prepare scene for Skybrush"
+msgstr "为Skybrush准备场景"
+
+#. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
+msgid ""
+"Queries the server for the list of file formats that are supported by\n"
+"    the server.\n"
+"\n"
+"    Note that operator also checks the backend version in the background and\n"
+"    informs the user if the backend is outdated.\n"
+"    "
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
+msgctxt "Operator"
+msgid "Query File Formats"
+msgstr "查询文件格式"
+
+#. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
+msgid "Executes an all-pairs proximity check on the drones in the current frame."
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
+msgctxt "Operator"
+msgid "Calculate All Proximity Warnings"
+msgstr "计算所有接近警告"
+
+#. :src: bpy.types.SKYBRUSH_OT_set_server_url
+#, fuzzy
+msgid "Sets the server URL to a fixed value."
+msgstr "将服务器URL设置为固定值"
+
+#. :src: bpy.types.SKYBRUSH_OT_set_server_url
+msgctxt "Operator"
+msgid "Set server URL"
+msgstr "设置服务器URL"
+
+#. :src: bpy.types.SKYBRUSH_OT_swap_colors_in_led_control_panel
+msgid "Swaps the current primary and secondary colors in the LED control panel."
+msgstr "交换LED控制面板中的当前主色和次色。"
+
+#. :src: bpy.types.SKYBRUSH_OT_swap_colors_in_led_control_panel
+msgctxt "Operator"
+msgid "Swap Colors in LED Control Panel"
+msgstr "交换LED控制面板中的颜色"
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
+msgid ""
+"Triggers the defined pyro effect of the Pyro control panel\n"
+"    on the currently selected drones."
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
+msgctxt "Operator"
+msgid "Trigger Pyro on Selected Drones"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
+msgid ""
+"Blender operator that takes the selected vertex group of the selected\n"
+"    object and designates it to be used in formations.\n"
+"    "
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
+msgctxt "Operator"
+msgid "Use Selected Vertex Group for Formation"
+msgstr "使用选定顶点组进行编组"
+
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories
+msgid "Validates the trajectories of the drones in a given frame range."
+msgstr "验证无人机在给定帧范围内的轨迹。"
+
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories
+msgctxt "Operator"
+msgid "Validate Trajectories"
+msgstr "验证轨迹"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgctxt "Operator"
@@ -69,12 +204,14 @@ msgid "Export object trajectories and light animation into .dac format."
 msgstr "将对象轨迹和灯光动画导出为dac格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
@@ -82,12 +219,14 @@ msgid "Export selected drones only"
 msgstr "仅导出选定的无人机"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_selected
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.export_selected
@@ -95,12 +234,14 @@ msgid "Export only the selected drones. Uncheck to export all drones, irrespecti
 msgstr "仅导出选定的无人机。取消确认导出所有无人机，无论选择如何。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
@@ -109,12 +250,14 @@ msgid "Frame range"
 msgstr "帧范围"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
@@ -123,27 +266,14 @@ msgid "Choose a frame range to use for this operation"
 msgstr "选择用于此操作的帧范围"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
-#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
-#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
-msgid "Storyboard"
-msgstr "故事板"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
@@ -152,12 +282,14 @@ msgid "Use the storyboard to define frame range"
 msgstr "使用序列图像板定义帧范围"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'RENDER'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'RENDER'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'RENDER'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'RENDER'
@@ -166,12 +298,14 @@ msgid "Use global render frame range set by scene"
 msgstr "使用由场景设置的全局渲染帧范围"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'PREVIEW'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'PREVIEW'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'PREVIEW'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'PREVIEW'
@@ -180,12 +314,14 @@ msgid "Use global preview frame range set by scene"
 msgstr "使用由场景设置的全局预览帧范围"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
@@ -194,18 +330,175 @@ msgid "Current formation or transition"
 msgstr "当前编队或过渡"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'AROUND_CURRENT_FRAME'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 msgid "Use the formation or transition containing the current frame"
 msgstr "返回当前帧周围的编队或过渡所覆盖的帧范围"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw
+msgid "Redraw frames"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw
+msgid "Whether to redraw the scene during export after every frame"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw:'AUTO'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'AUTO'
+msgid "Redraw the scene only if necessary for the light effects to work correctly"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw:'ALWAYS'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'ALWAYS'
+msgid "Redraw the scene even if it would not be needed for the light effects"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw:'NEVER'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'NEVER'
+msgid "Do not redraw the scene even if it would be needed for the light effects"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf
+msgctxt "Operator"
+msgid "Export Depence .ddsf format"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf
+#, fuzzy
+msgid "Export object trajectories and light animation into Depence .ddsf format."
+msgstr "将对象轨迹和灯光动画导出为dac格式。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
+msgid "Light FPS"
+msgstr "轻FPS"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
+msgid "Number of samples to take from light programs per second"
+msgstr "每秒从灯光程序中获取的样本数"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
+msgid "Trajectory FPS"
+msgstr "轨迹FPS"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
+msgid "Number of samples to take from trajectories per second"
+msgstr "每秒从轨迹中获取的样本数"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_pyro_control
+msgid "Export pyro (PRO)"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_pyro_control
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_pyro_control
+#, fuzzy
+msgid "Specifies whether the pyro program of each drone should be included in the show"
+msgstr "指定在表演期间是否应该控制每个无人机的偏航角"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
+#, fuzzy
+msgid "Export yaw (PRO)"
+msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_yaw_control
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
+msgid "Specifies whether the yaw angle of each drone should be controlled during the show"
+msgstr "指定在表演期间是否应该控制每个无人机的偏航角"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgctxt "Operator"
@@ -250,38 +543,6 @@ msgstr "导出DSS PATH3文件（UGCS）"
 msgid "Export object trajectories and light animation into DSS PATH3 format."
 msgstr "将对象轨迹和灯光动画导出为DSS PATH3格式。"
 
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
-msgid "Light FPS"
-msgstr "轻FPS"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_evsky.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.light_output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.light_output_fps
-msgid "Number of samples to take from light programs per second"
-msgstr "每秒从灯光程序中获取的样本数"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
-msgid "Trajectory FPS"
-msgstr "轨迹FPS"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_evsky.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.output_fps
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.output_fps
-msgid "Number of samples to take from trajectories per second"
-msgstr "每秒从轨迹中获取的样本数"
-
 #. :src: bpy.types.EXPORT_SCENE_OT_evsky
 msgctxt "Operator"
 msgid "Export EVSKY format"
@@ -310,18 +571,80 @@ msgid "Export object trajectories and light animation into the Skybrush compiled
 msgstr "将对象轨迹和灯光动画导出为Skybrush编译格式(.skyc)"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_cameras
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.export_cameras
 msgid "Specifies whether cameras defined in Blender should be exported into the show file"
 msgstr "指定Blender中定义的摄像机是否应导出到演出文件中"
 
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
-msgid "Export yaw"
-msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf
+#, fuzzy
+msgctxt "Operator"
+msgid "Export Skybrush SKYC+PDF"
+msgstr "导出 Skybrush SKYC"
 
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
-#. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
-msgid "Specifies whether the yaw angle of each drone should be controlled during the show"
-msgstr "指定在表演期间是否应该控制每个无人机的偏航角"
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf
+#, fuzzy
+msgid "Export object trajectories and light animation into .skyc and .pdf formats in one request"
+msgstr "将对象轨迹和灯光动画导出为dac格式。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_drift
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
+msgid "Plot projected drift"
+msgstr "绘制预计漂移"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_drift
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
+msgid "Include projected drift plot. Uncheck to exclude projected drift plot from the output."
+msgstr "包括预计漂移图。取消勾选以从输出中排除预计漂移图。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_indiv
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
+msgid "Create individual drone plots"
+msgstr "创建单独的无人机绘图"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_indiv
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
+msgid "Include individual drone plots.Uncheck to exclude per-drone plots from the output."
+msgstr "包括单独的无人机绘图。取消锁定以从输出中排除每个无人机的绘图。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_nn
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
+msgid "Plot nearest neighbor"
+msgstr "绘制最近的邻居"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_nn
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
+msgid "Include nearest neighbor plot. Uncheck to exclude nearest neighbor plot from the output."
+msgstr "包括最近邻地块。取消选中可从输出中排除最近的邻居绘图。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_nnall
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
+msgid "Plot all nearest neighbors"
+msgstr "绘制所有最近的邻居"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_nnall
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
+msgid "Include all nearest neighbors plot. Uncheck to exclude all nearest neighbor plot from the output."
+msgstr "包括所有最近的邻居地块。取消选中可从输出中排除所有最近的邻居绘图。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_pos
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
+msgid "Plot positions"
+msgstr "绘图位置"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_pos
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
+msgid "Include position plot. Uncheck to exclude position plot from the output."
+msgstr "包括位置图。取消锁定以从输出中排除位置图。"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_vel
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
+msgid "Plot velocities"
+msgstr "绘图速度"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_vel
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
+msgid "Include velocity plot. Uncheck to exclude velocity plot from the output."
+msgstr "包括速度图。取消锁定以从输出中排除速度图。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgctxt "Operator"
@@ -348,54 +671,6 @@ msgstr "导出 Skybrush PDF"
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf
 msgid "Export object trajectories into validation plots stored in a .pdf file"
 msgstr "将对象轨迹导出到存储在. pdf文件中的验证图中"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
-msgid "Plot projected drift"
-msgstr "绘制预计漂移"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_drift
-msgid "Include projected drift plot. Uncheck to exclude projected drift plot from the output."
-msgstr "包括预计漂移图。取消勾选以从输出中排除预计漂移图。"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
-msgid "Create individual drone plots"
-msgstr "创建单独的无人机绘图"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_indiv
-msgid "Include individual drone plots.Uncheck to exclude per-drone plots from the output."
-msgstr "包括单独的无人机绘图。取消锁定以从输出中排除每个无人机的绘图。"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
-msgid "Plot nearest neighbor"
-msgstr "绘制最近的邻居"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nn
-msgid "Include nearest neighbor plot. Uncheck to exclude nearest neighbor plot from the output."
-msgstr "包括最近邻地块。取消选中可从输出中排除最近的邻居绘图。"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
-msgid "Plot all nearest neighbors"
-msgstr "绘制所有最近的邻居"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
-msgid "Include all nearest neighbors plot. Uncheck to exclude all nearest neighbor plot from the output."
-msgstr "包括所有最近的邻居地块。取消选中可从输出中排除所有最近的邻居绘图。"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
-msgid "Plot positions"
-msgstr "绘图位置"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_pos
-msgid "Include position plot. Uncheck to exclude position plot from the output."
-msgstr "包括位置图。取消锁定以从输出中排除位置图。"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
-msgid "Plot velocities"
-msgstr "绘图速度"
-
-#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_vel
-msgid "Include velocity plot. Uncheck to exclude velocity plot from the output."
-msgstr "包括速度图。取消锁定以从输出中排除速度图。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz
 msgctxt "Operator"
@@ -513,12 +788,32 @@ msgstr ""
 "    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv.update_duration
+#. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss.update_duration
 msgid "Update duration of formation"
 msgstr "更新形成持续时间"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv.update_duration
+#. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss.update_duration
 msgid "Update the duration of the storyboard entry based on animation length"
 msgstr "根据动画长度更新故事板条目的持续时间"
+
+#. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss
+#, fuzzy
+msgctxt "Operator"
+msgid "Import DSS PATH/PATH3"
+msgstr "导出DSS PATH3文件（UGCS）"
+
+#. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss
+#, fuzzy
+msgid ""
+"Adds markers from .zip compressed DSS .PATH or .PATH3 files\n"
+"    (each containing baked animation of a single drone) to the currently\n"
+"    selected formation.\n"
+"    "
+msgstr ""
+"从与 Skybrush 兼容的 .zip 压缩动态 .csv 文件\n"
+"     （每个文件包含单个无人机的烘焙动画）中添加标记到当前选定的队形。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgctxt "Operator"
@@ -528,11 +823,6 @@ msgstr "将选定的队形附加到故事板"
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgid "Appends the selected formation to the end of the show, planning the transition between the last formation and the new one"
 msgstr "将选定的队形附加到表演的结尾，计划上一个队形和新队形之间的转换"
-
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
-msgctxt "Operator"
-msgid "Apply Colors to Selected Drones"
-msgstr "将颜色应用于选定的无人机"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid "Applies the current primary or secondary color from the LED control panel to the selected drones, optionally creating a gradient."
@@ -645,11 +935,6 @@ msgid "Creates a new storyboard entry at the end of the storyboard."
 msgstr "在故事板的末尾创建一个新的故事板条目。"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
-msgctxt "Operator"
-msgid "Create Takeoff Grid"
-msgstr "创建起飞网格"
-
-#. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
 msgid "Creates the takeoff grid and the corresponding set of drones"
 msgstr "创建起飞网格和相应的无人机集"
 
@@ -742,20 +1027,6 @@ msgstr "取消选择编队"
 msgid "Removes the selected formation from the selection"
 msgstr "从选择中删除选定的格式"
 
-#. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
-msgctxt "Operator"
-msgid "Detach Materials from Drone Template"
-msgstr "从无人机模板中分离材料"
-
-#. :src: bpy.types.SKYBRUSH_OT_detach_materials_from_drone_template
-msgid ""
-"Detaches the materials of the drones from the template that the drones\n"
-"    were created from.\n"
-"    "
-msgstr ""
-"将无人机的材质与创建它们的模板分离。\n"
-"    "
-
 #. :src: bpy.types.SKYBRUSH_OT_duplicate_light_effect
 msgctxt "Operator"
 msgid "Duplicate Light Effect"
@@ -764,6 +1035,42 @@ msgstr "复制灯光效果"
 #. :src: bpy.types.SKYBRUSH_OT_duplicate_light_effect
 msgid "Duplicates the selected light effect in the effect list"
 msgstr "复制效果列表中的选定灯光效果"
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects
+#, fuzzy
+msgctxt "Operator"
+msgid "Export Light Effects"
+msgstr "灯光效果"
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects
+msgid "Exports one or more light effects from the light effect list"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection
+#, fuzzy
+msgid "Light effects"
+msgstr "灯光效果"
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection
+#, fuzzy
+msgid "Choose a filter type to use for this operation"
+msgstr "选择用于此操作的帧范围"
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'ALL'
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection:'ALL'
+msgid "Select all light effects"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'ENABLED'
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection:'ENABLED'
+msgid "Select all enabled light effects"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'SELECTED'
+msgid "Select only the currently active light effect"
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_fix_constraint_ordering
 msgctxt "Operator"
@@ -826,6 +1133,16 @@ msgstr "#顶点"
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.vertex_count
 msgid "Number of vertices in all the meshes of the formation that are designated as targets"
 msgstr "指定为目标的编队所有网格中的顶点数"
+
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects
+#, fuzzy
+msgctxt "Operator"
+msgid "Import Light Effects"
+msgstr "灯光效果"
+
+#. :src: bpy.types.SKYBRUSH_OT_import_light_effects
+msgid "Imports one or more light effects into the light effect list"
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_land
 msgctxt "Operator"
@@ -926,32 +1243,6 @@ msgstr "向上移动所选故事板条目"
 msgid "Moves the selected entry up by one slot in the storyboard"
 msgstr "在故事板中将所选条目向上移动一个槽"
 
-#. :src: bpy.types.SKYBRUSH_OT_prepare
-msgctxt "Operator"
-msgid "Prepare scene for Skybrush"
-msgstr "为Skybrush准备场景"
-
-#. :src: bpy.types.SKYBRUSH_OT_prepare
-msgid ""
-"Blender operator that prepares a Blender file to be used with\n"
-"    Skybrush Studio for Blender.\n"
-"\n"
-"    This involves:\n"
-"\n"
-"    * creating the standard \"Drones\" and \"Formations\" collections if they do not\n"
-"      exist yet\n"
-"    * creating a drone template and putting it in the \"Templates\" collection\n"
-"    "
-msgstr ""
-"为与 Skybrush Studio for Blender 配合使用准备 Blender 文件的操作员。\n"
-"\n"
-"此操作包括：\n"
-"\n"
-"如果尚未存在，则创建标准的 \"Drones\" 和 \"Formations\" 集合\n"
-"\n"
-"创建无人机模板并将其放入 \"Templates\" 集合\n"
-"    "
-
 #. :src: bpy.types.SKYBRUSH_OT_recalculate_transitions
 msgctxt "Operator"
 msgid "Recalculate Transitions"
@@ -988,11 +1279,6 @@ msgstr "从选定的编队"
 #. :src: bpy.types.SKYBRUSH_OT_recalculate_transitions.scope:'FROM_SELECTED_TO_END'
 msgid "From selected formation to end"
 msgstr "从选定的编队到结束"
-
-#. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
-msgctxt "Operator"
-msgid "Query File Formats"
-msgstr "查询文件格式"
 
 #. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
 msgid "Queries the supported file formats from the server"
@@ -1109,8 +1395,17 @@ msgstr "返航（RTH）的网格间距或智能返航的最小距离"
 msgid "Start frame of the return-to-home maneuver"
 msgstr "返航机动的起始帧"
 
+#. :src: bpy.types.SKYBRUSH_OT_rth.to_aerial_grid
+msgid "Return to aerial grid (PRO)"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_rth.to_aerial_grid
+msgid "If enabled, drones will use a special planner to return to an aerial grid above home and will not land automatically afterwards. If disabled, drones will use the standard smart RTH algorithm and finish the procedure with landing to the desired common altitude"
+msgstr ""
+
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_smart_rth
-msgid "Use smart RTH"
+#, fuzzy
+msgid "Use smart RTH (PRO)"
 msgstr "使用智能返航"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_smart_rth
@@ -1128,11 +1423,6 @@ msgstr "Z 轴速度"
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity_z
 msgid "Average vertical velocity during the return-to-home maneuver"
 msgstr "返航过程中的平均垂直速度"
-
-#. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
-msgctxt "Operator"
-msgid "Calculate All Proximity Warnings"
-msgstr "计算所有接近警告"
 
 #. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
 msgid "Runs an all-pairs proximity check on all the drones. This check does not stop after the first pair of drones that are closer to each other than the proximity threshold"
@@ -1156,23 +1446,47 @@ msgstr "为当前帧选择故事板条目"
 msgid "Select the storyboard entry that contains the current frame. If the current frame falls between storyboard entries, selects the next entry. Clears the selection if the current frame is after the end of the storyboard."
 msgstr "选择包含当前帧的故事板条目。如果当前帧位于故事板条目之间，则选择下一个条目。如果当前帧在存储板的末尾之后，则清除所选内容。"
 
-#. :src: bpy.types.SKYBRUSH_OT_set_server_url
+#. :src: bpy.types.SKYBRUSH_OT_set_light_effect_end_frame
 msgctxt "Operator"
-msgid "Set server URL"
-msgstr "设置服务器URL"
+msgid "Set Light Effect End Frame"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_set_light_effect_end_frame
+msgid "Sets the end frame of the light effect to the current frame."
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_set_light_effect_start_frame
+msgctxt "Operator"
+msgid "Set Light Effect Start Frame"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_set_light_effect_start_frame
+msgid "Sets the start frame of the light effect to the current frame."
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_set_server_url
 msgid "Sets the server URL to a fixed value"
 msgstr "将服务器URL设置为固定值"
 
-#. :src: bpy.types.SKYBRUSH_OT_swap_colors_in_led_control_panel
+#. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_end_frame
+#, fuzzy
 msgctxt "Operator"
-msgid "Swap Colors in LED Control Panel"
-msgstr "交换LED控制面板中的颜色"
+msgid "Set Storyboard Entry End Frame"
+msgstr "为当前帧选择故事板条目"
 
-#. :src: bpy.types.SKYBRUSH_OT_swap_colors_in_led_control_panel
-msgid "Swaps the current primary and secondary colors in the LED control panel."
-msgstr "交换LED控制面板中的当前主色和次色。"
+#. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_end_frame
+msgid "Sets the end frame of the storyboard entry to the current frame."
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_start_frame
+#, fuzzy
+msgctxt "Operator"
+msgid "Set Storyboard Entry Start Frame"
+msgstr "为当前帧选择故事板条目"
+
+#. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_start_frame
+msgid "Sets the start frame of the storyboard entry to the current frame."
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff
 msgctxt "Operator"
@@ -1197,8 +1511,7 @@ msgstr "指定起飞高度是否相对于无人机的当前高度。已弃用；
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_shift
 msgid "Specifies the difference between altitudes of takeoff layers for multi-phase takeoffs when multiple drones occupy the same takeoff slot within safety distance."
-msgstr "指定分层起飞时各起飞层之间的高度差，适用于多架无人机在安全距离内共用同一起飞"
-"位的情况。"
+msgstr "指定分层起飞时各起飞层之间的高度差，适用于多架无人机在安全距离内共用同一起飞位的情况。"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.spacing
 msgid "Minimum distance between drones during takeoff"
@@ -1211,6 +1524,34 @@ msgstr "起飞机动的起始帧"
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.velocity
 msgid "Average vertical velocity during the takeoff maneuver"
 msgstr "起飞机动过程中的平均垂直速度"
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
+msgid "Triggers the defined pyro effect of the Pyro control panel on the currently selected drones"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
+#. :src: bpy.types.PyroControlPanelProperties.channel
+msgid "The (1-based) channel index the pyro is attached to"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
+#. :src: bpy.types.PyroControlPanelProperties.duration
+msgid "The duration of the pyro effect"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.name
+msgid "Descriptor of the pyro effect to trigger"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
+#. :src: bpy.types.PyroControlPanelProperties.prefire_time
+msgid "Prefire time"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
+#. :src: bpy.types.PyroControlPanelProperties.prefire_time
+msgid "The time needed for the pyro effect to show up after it gets triggered"
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_update_formation
 msgctxt "Operator"
@@ -1244,22 +1585,30 @@ msgid "Update all time markers to be synchronized with the storyboard"
 msgstr "更新所有要与故事板同步的时间标记"
 
 #. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
-msgctxt "Operator"
-msgid "Use Selected Vertex Group for Formation"
-msgstr "使用选定顶点组进行编组"
-
-#. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
 msgid "Sets the current vertex group as the one that should be used as targets when the object is placed in a formation."
 msgstr "将当前顶点组设置为将对象放置在队形中时应用作目标的顶点组。"
 
-#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories
+#. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration
 msgctxt "Operator"
-msgid "Validate Trajectories"
-msgstr "验证轨迹"
+msgid "Update file content to speed up light effect rendering"
+msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories
-msgid "Validates the trajectories of the drones in a given frame range."
-msgstr "验证无人机在给定帧范围内的轨迹。"
+#. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration
+msgid ""
+"Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+"to speed up light effect playback and show export, by replacing all\n"
+"drone object materials to a shared template material, modifying its shader\n"
+"node tree and storing color animations in the drone object's 'color' property.\n"
+"The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
+msgid "Input format version"
+msgstr ""
+
+#. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_to
+msgid "Output format version"
+msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.selected_only
 msgid "Selection only"
@@ -1278,10 +1627,6 @@ msgstr ""
 "自定义 Blender 面板，允许用户编辑 Blender 对象的无人机表演特定属性。\n"
 "    "
 
-#. :src: bpy.types.DATA_PT_skybrush_properties
-msgid "Drone Show"
-msgstr "无人机表演"
-
 #. :src: bpy.types.OBJECT_PT_LightEffectsPanel
 msgid ""
 "Custom Blender panel that allows the user to specify the list of light\n"
@@ -1292,15 +1637,6 @@ msgstr ""
 "自定义 Blender 面板，允许用户指定灯光效果列表，这些效果在导航到相应帧时按需计算（而不是使用关键帧）。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
-#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
-msgid "LEDs"
-msgstr "灯光"
-
-#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
-msgid "Light Effects"
-msgstr "灯光效果"
-
 #. :src: bpy.types.OBJECT_PT_skybrush_export_panel
 msgid ""
 "Custom Blender panel that allows the user to export the current show into\n"
@@ -1309,11 +1645,6 @@ msgid ""
 msgstr ""
 "自定义 Blender 面板，允许用户将当前表演导出为支持的格式之一。\n"
 "    "
-
-#. :src: bpy.types.OBJECT_PT_skybrush_export_panel
-#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
-msgid "Safety & Export"
-msgstr "安全与导出"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
 msgid ""
@@ -1324,12 +1655,6 @@ msgstr ""
 "自定义 Blender 面板，允许用户创建新的队形或更新现有队形。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
-#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
-#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
-msgid "Formations"
-msgstr "编队"
-
 #. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
 msgid ""
 "Custom Blender panel that allows the user to control the color of the\n"
@@ -1339,9 +1664,15 @@ msgstr ""
 "自定义 Blender 面板，允许用户控制当前无人机表演中无人机 LED 灯的颜色。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
-msgid "LED Control"
-msgstr "LED控制"
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+#, fuzzy
+msgid ""
+"Custom Blender panel that allows the user to control trigger events\n"
+"    for drone-launched fireworks in the current drone show.\n"
+"    "
+msgstr ""
+"自定义 Blender 面板，允许用户控制当前无人机表演中无人机 LED 灯的颜色。\n"
+"    "
 
 #. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
 msgid ""
@@ -1354,9 +1685,12 @@ msgstr ""
 "并检查当前 Blender 帧中无人机的最小距离和最大速度。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
-msgid "Safety Check"
-msgstr "安全检查"
+#. :src: bpy.types.OBJECT_PT_skybrush_show_panel
+msgid ""
+"Custom Blender panel that allows the user to specify the properties of\n"
+"    the show, inclusing its type, location and orientation.\n"
+"    "
+msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid ""
@@ -1377,10 +1711,6 @@ msgstr ""
 "          并对其执行集体起飞和集体降落操作。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
-msgid "Swarm"
-msgstr "集群"
-
 #. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_post
 msgid ""
 "Edits the transition to the formation that follows the currently selected\n"
@@ -1390,17 +1720,9 @@ msgstr ""
 "编辑到当前选定队形之后的队形的过渡。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_post
-msgid "Transition to next"
-msgstr "过渡到下一个"
-
 #. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_pre
 msgid "Edits the transition into the currently selected formation."
 msgstr "编辑进入当前选定队形的过渡。"
-
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_pre
-msgid "Transition from previous"
-msgstr "从上一个过渡"
 
 #. :src: bpy.types.CollectionProperty
 msgid "Collection Definition"
@@ -1491,6 +1813,22 @@ msgstr "用于所有无人机的无人机模板对象。球体是默认的最简
 msgid "Specifies the light emission strength of the drone meshes"
 msgstr "指定无人机网格的发光强度"
 
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.latitude_of_show_origin
+msgid "Latitude of show origin"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.latitude_of_show_origin
+msgid "Proposed latitude of the origin of the show coordinate system, in degrees"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
+msgid "Longitude of show origin"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
+msgid "Proposed longitude of the origin of the show coordinate system, in degrees"
+msgstr ""
+
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.max_acceleration
 msgid "Preferred acceleration"
 msgstr "首选加速度"
@@ -1502,6 +1840,14 @@ msgstr "在规划固定点之间的过渡时间时，无人机的首选加速度
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.random_seed
 msgid "Root random seed value used to generate randomized stuff in this show file"
 msgstr "根随机种子值，用于在此表演文件中生成随机内容"
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
+msgid "Show orientation"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
+msgid "Proposed orientation of the X+ axis of the show coordinate system relative to North (towards East)"
+msgstr ""
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_type
 msgid "Show type"
@@ -1543,6 +1889,14 @@ msgstr "使用绽放效果"
 msgid "Specifies whether the bloom effect should automatically be enabled on the 3D View when the show is loaded"
 msgstr "指定加载演出时是否应在三维视图上自动启用绽放效果"
 
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
+msgid "Use show origin and orientation"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
+msgid "Specifies whether to have a proposed show origin and orientation, e.g., used in .skyc export"
+msgstr ""
+
 #. :src: bpy.types.DroneShowAddonObjectProperties
 msgid ""
 "Custom Blender property representing the extra addon-specific properties\n"
@@ -1560,6 +1914,14 @@ msgstr "编队顶点组"
 msgid "Name of the vertex group designated for containing the vertices that the drones should occupy when their parent object is placed in the storyboard"
 msgstr "顶点组的名称，该顶点组指定用于包含无人机在其父对象放置在故事板中时应占据的顶点"
 
+#. :src: bpy.types.DroneShowAddonObjectProperties.pyro_markers
+msgid "Pyro markers"
+msgstr ""
+
+#. :src: bpy.types.DroneShowAddonObjectProperties.pyro_markers
+msgid "Pyro trigger events associated with an object, stored as a JSON string."
+msgstr ""
+
 #. :src: bpy.types.DroneShowAddonProperties
 msgid ""
 "Custom Blender property representing the properties of the entire drone\n"
@@ -1573,6 +1935,10 @@ msgstr ""
 "\n"
 "每个为 Skybrush 设置的 Blender 场景都将包含该属性的一个实例。\n"
 "    "
+
+#. :src: bpy.types.DroneShowAddonProperties.version
+msgid "Current version of the show content stored in Blender. Version 1 is the initial version (plugin version <= 3.13.2). Version 2 uses a shared material for all drones to speed up light effects."
+msgstr ""
 
 #. :src: bpy.types.FormationsPanelProperties.order_overlay_enabled
 msgid "Show order of markers"
@@ -1808,6 +2174,19 @@ msgstr "输出函数，用于确定通过图像垂直（Y）轴传递的值，�
 msgid "Offsets the output value of each drone randomly, wrapped aroundthe edges of the color ramp; this property defines the maximumrange of the offset"
 msgstr "随机偏移每个无人机的输出值，缠绕在颜色渐变的边缘；该属性定义偏移量的最大范围"
 
+#. :src: bpy.types.LightEffect.storyboard_entry_or_transition
+#. :src: bpy.types.LightEffect.storyboard_entry_or_transition_selection
+msgid "Storyboard entry/transition"
+msgstr ""
+
+#. :src: bpy.types.LightEffect.storyboard_entry_or_transition
+msgid "The internal storage for the storyboard entry/transition attached to this light effect"
+msgstr ""
+
+#. :src: bpy.types.LightEffect.storyboard_entry_or_transition_selection
+msgid "The storyboard entry/transition attached to this light effect"
+msgstr ""
+
 #. :src: bpy.types.LightEffect.target
 msgid "Specifies whether to apply this light effect to all drones or only to those drones that are inside the given mesh or are in front of the plane of the first face of the mesh. See also the 'Invert' property"
 msgstr "指定是否将此灯光效果应用于所有无人机，或仅应用于位于指定网格内部或网格第一个面的平面前方的无人机。另请参阅“反转”属性"
@@ -1858,6 +2237,34 @@ msgstr "选定的索引"
 #. :src: bpy.types.LightEffectCollection.active_entry_index
 msgid "Index of the light effect currently being edited"
 msgstr "当前正在编辑的灯光效果的索引"
+
+#. :src: bpy.types.PyroControlPanelProperties.name
+msgid "Name of the pyro effect to trigger"
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization
+msgid "Visualization"
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization
+msgid "The visualization method of the pyro effect."
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization:'NONE'
+msgid "No rendering is very quick but invisible"
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization:'MARKERS'
+msgid "Markers are simple but quick"
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization:'PARTICLES'
+msgid "Particles are spectacular but slow"
+msgstr ""
+
+#. :src: bpy.types.PyroControlPanelProperties.visualization:'INFO'
+msgid "Static pyro info for aiding pre-flight handling"
+msgstr ""
 
 #. :src: bpy.types.SafetyCheckProperties
 msgid ""
@@ -2172,6 +2579,10 @@ msgstr "用途"
 msgid "The purpose of the entry in the show. A valid show must start with 0 or more takeoff entries, followed by any number of show entries, and end with 0 or more landing entries."
 msgstr "该指令用于演出流程。一个有效的演出必须以0个或多个起飞指令开始，接着执行任意数量的演出指令，并以0个或多个降落指令结束。"
 
+#. :src: bpy.types.StoryboardEntry.purpose:'UNSPECIFIED'
+msgid "Unspecified"
+msgstr ""
+
 #. :src: bpy.types.StoryboardEntry.purpose:'TAKEOFF'
 msgid "Takeoff"
 msgstr "起飞"
@@ -2208,6 +2619,22 @@ msgstr "交错的"
 msgid "Type of transition between the previous formation and this one. Manual transitions map the nth vertex of the initial formation to the nth vertex of the target formation; auto-matched transitions find an optimal mapping between vertices of the initial and the target formation"
 msgstr "上一个编队和本编队之间的过渡类型。\手动转换将初始编队的第n个顶点映射到目标编队的第n个顶点；自动匹配过渡在初始形态和目标形态的顶点之间找到最优映射"
 
+#. :src: bpy.types.StoryboardEntryOrTransition
+msgid ""
+"This is a simplified class to store only some\n"
+"    parameters of a storyboard entry or a transition between\n"
+"    two entries, for external usage, e.g. by light effects."
+msgstr ""
+
+#. :src: bpy.types.StoryboardEntryOrTransition.frame_end
+msgid "End frame"
+msgstr ""
+
+#. :src: bpy.types.StoryboardEntryOrTransition.frame_start
+#, fuzzy
+msgid "Start frame"
+msgstr "在帧处"
+
 #. :src: bpy.types.SKYBRUSH_UL_lightfxlist
 msgid "Customized Blender UI list for light effects."
 msgstr "用于灯光效果的自定义 Blender UI 列表。"
@@ -2224,35 +2651,103 @@ msgstr "天空之刷工作室"
 msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
+
+#~ msgid "Safety Check"
+#~ msgstr "安全检查"
+
+
 #~ msgid "at frame"
 #~ msgstr "在帧处"
 
-#~ msgid "Intra-slot drones per column"
-#~ msgstr "每列的槽内无人机数量"
 
-#~ msgid "with velocity"
-#~ msgstr "带速度"
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr "单个槽列中可以放置的无人机数量"
 
-#~ msgid "Number of drones that can be placed within a single slot row"
-#~ msgstr "单个槽行中可以放置的无人机数量"
+
+#~ msgid "Swarm"
+#~ msgstr "集群"
+
+
+#~ msgid "Light Effects"
+#~ msgstr "灯光效果"
+
 
 #~ msgid "Intra-slot drones per row"
 #~ msgstr "每行的槽内无人机数量"
 
-#~ msgid "Max Z velocity"
-#~ msgstr "最大Z速度"
 
-#~ msgid "Altitude to take off to"
-#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+#~ msgid "Transition from previous"
+#~ msgstr "从上一个过渡"
 
-#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
-#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
+
+#~ msgid "LEDs"
+#~ msgstr "灯光"
+
 
 #~ msgid "with velocity Z"
 #~ msgstr "Z 轴速度"
 
+
+#~ msgid "Use smart RTH"
+#~ msgstr "使用智能返航"
+
+
+#~ msgid "Drone Show"
+#~ msgstr "无人机表演"
+
+
+#~ msgid "Formations"
+#~ msgstr "编队"
+
+
 #~ msgid "to altitude"
 #~ msgstr "到海拔高度"
 
-#~ msgid "Number of drones that can be placed within a single slot column"
-#~ msgstr "单个槽列中可以放置的无人机数量"
+
+#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
+#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
+
+
+#~ msgid "Number of drones that can be placed within a single slot row"
+#~ msgstr "单个槽行中可以放置的无人机数量"
+
+
+#~ msgid "Storyboard"
+#~ msgstr "故事板"
+
+
+#~ msgid "Altitude to take off to"
+#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+
+
+#~ msgid "Export yaw"
+#~ msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
+
+
+#~ msgid "Safety & Export"
+#~ msgstr "安全与导出"
+
+
+#~ msgid "Generate Markers"
+#~ msgstr "生成标记"
+
+
+#~ msgid "LED Control"
+#~ msgstr "LED控制"
+
+
+#~ msgid "Max Z velocity"
+#~ msgstr "最大Z速度"
+
+
+#~ msgid "with velocity"
+#~ msgstr "带速度"
+
+
+#~ msgid "Transition to next"
+#~ msgstr "过渡到下一个"
+
+
+#~ msgid "Intra-slot drones per column"
+#~ msgstr "每列的槽内无人机数量"
+
