@@ -2652,102 +2652,111 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
 
+#~ msgid "Transition to next"
+#~ msgstr "过渡到下一个"
+
+
 #~ msgid "Safety Check"
 #~ msgstr "安全检查"
-
-
-#~ msgid "at frame"
-#~ msgstr "在帧处"
-
-
-#~ msgid "Number of drones that can be placed within a single slot column"
-#~ msgstr "单个槽列中可以放置的无人机数量"
-
-
-#~ msgid "Swarm"
-#~ msgstr "集群"
-
-
-#~ msgid "Light Effects"
-#~ msgstr "灯光效果"
-
-
-#~ msgid "Intra-slot drones per row"
-#~ msgstr "每行的槽内无人机数量"
-
-
-#~ msgid "Transition from previous"
-#~ msgstr "从上一个过渡"
-
-
-#~ msgid "LEDs"
-#~ msgstr "灯光"
-
-
-#~ msgid "with velocity Z"
-#~ msgstr "Z 轴速度"
-
-
-#~ msgid "Use smart RTH"
-#~ msgstr "使用智能返航"
-
-
-#~ msgid "Drone Show"
-#~ msgstr "无人机表演"
-
-
-#~ msgid "Formations"
-#~ msgstr "编队"
-
-
-#~ msgid "to altitude"
-#~ msgstr "到海拔高度"
-
-
-#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
-#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
 
 
 #~ msgid "Number of drones that can be placed within a single slot row"
 #~ msgstr "单个槽行中可以放置的无人机数量"
 
 
-#~ msgid "Storyboard"
-#~ msgstr "故事板"
+#~ msgid "with velocity"
+#~ msgstr "带速度"
 
 
-#~ msgid "Altitude to take off to"
-#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+#~ msgid "Drone Show"
+#~ msgstr "无人机表演"
+
+
+#~ msgid "Intra-slot drones per row"
+#~ msgstr "每行的槽内无人机数量"
+
+
+#~ msgid "at frame"
+#~ msgstr "在帧处"
+
+
+#~ msgid "Formations"
+#~ msgstr "编队"
+
+
+#~ msgid "Transition from previous"
+#~ msgstr "从上一个过渡"
 
 
 #~ msgid "Export yaw"
 #~ msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
 
 
-#~ msgid "Safety & Export"
-#~ msgstr "安全与导出"
+#~ msgid ""
+#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+#~ "to speed up light effect playback and show export, by replacing all\n"
+#~ "drone object materials to a shared template material, modifying its shader\n"
+#~ "node tree and storing color animations in the drone object's 'color' property.\n"
+#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
+#~ msgstr ""
+
+
+#~ msgid "Storyboard"
+#~ msgstr "故事板"
+
+
+#~ msgid "Intra-slot drones per column"
+#~ msgstr "每列的槽内无人机数量"
+
+
+#~ msgid "LEDs"
+#~ msgstr "灯光"
+
+
+#~ msgid "Altitude to take off to"
+#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+
+
+#~ msgid "to altitude"
+#~ msgstr "到海拔高度"
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr "单个槽列中可以放置的无人机数量"
+
+
+#~ msgid "Light Effects"
+#~ msgstr "灯光效果"
+
+
+#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
+#~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
 
 
 #~ msgid "Generate Markers"
 #~ msgstr "生成标记"
 
 
+#~ msgid "with velocity Z"
+#~ msgstr "Z 轴速度"
+
+
 #~ msgid "LED Control"
 #~ msgstr "LED控制"
+
+
+#~ msgid "Safety & Export"
+#~ msgstr "安全与导出"
+
+
+#~ msgid "Swarm"
+#~ msgstr "集群"
 
 
 #~ msgid "Max Z velocity"
 #~ msgstr "最大Z速度"
 
 
-#~ msgid "with velocity"
-#~ msgstr "带速度"
-
-
-#~ msgid "Transition to next"
-#~ msgstr "过渡到下一个"
-
-
-#~ msgid "Intra-slot drones per column"
-#~ msgstr "每列的槽内无人机数量"
+#~ msgid "Use smart RTH"
+#~ msgstr "使用智能返航"
 

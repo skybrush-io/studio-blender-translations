@@ -2557,11 +2557,20 @@ msgstr ""
 msgid "Customized Blender UI list for transition schedule overrides."
 msgstr ""
 
-#: Add-on Skybrush Studio info: name
+#. :src: Add-on Skybrush Studio info: name
 msgid "Skybrush Studio"
 msgstr ""
 
-#: Add-on Skybrush Studio info: description
+#. :src: Add-on Skybrush Studio info: description
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
+
+
+#~ msgid ""
+#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+#~ "to speed up light effect playback and show export, by replacing all\n"
+#~ "drone object materials to a shared template material, modifying its shader\n"
+#~ "node tree and storing color animations in the drone object's 'color' property.\n"
+#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
+#~ msgstr ""
 

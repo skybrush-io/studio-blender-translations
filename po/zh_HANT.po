@@ -2572,59 +2572,11 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
 
+#~ msgid "Transition to next"
+#~ msgstr ""
+
+
 #~ msgid "Safety Check"
-#~ msgstr ""
-
-
-#~ msgid "at frame"
-#~ msgstr ""
-
-
-#~ msgid "Number of drones that can be placed within a single slot column"
-#~ msgstr ""
-
-
-#~ msgid "Swarm"
-#~ msgstr ""
-
-
-#~ msgid "Light Effects"
-#~ msgstr ""
-
-
-#~ msgid "Intra-slot drones per row"
-#~ msgstr ""
-
-
-#~ msgid "Transition from previous"
-#~ msgstr ""
-
-
-#~ msgid "LEDs"
-#~ msgstr ""
-
-
-#~ msgid "with velocity Z"
-#~ msgstr ""
-
-
-#~ msgid "Use smart RTH"
-#~ msgstr ""
-
-
-#~ msgid "Drone Show"
-#~ msgstr ""
-
-
-#~ msgid "Formations"
-#~ msgstr ""
-
-
-#~ msgid "to altitude"
-#~ msgstr ""
-
-
-#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
 
@@ -2632,11 +2584,27 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Storyboard"
-#~ msgstr "分鏡表"
+#~ msgid "with velocity"
+#~ msgstr ""
 
 
-#~ msgid "Altitude to take off to"
+#~ msgid "Drone Show"
+#~ msgstr ""
+
+
+#~ msgid "Intra-slot drones per row"
+#~ msgstr ""
+
+
+#~ msgid "at frame"
+#~ msgstr ""
+
+
+#~ msgid "Formations"
+#~ msgstr ""
+
+
+#~ msgid "Transition from previous"
 #~ msgstr ""
 
 
@@ -2644,7 +2612,44 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Safety & Export"
+#~ msgid ""
+#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+#~ "to speed up light effect playback and show export, by replacing all\n"
+#~ "drone object materials to a shared template material, modifying its shader\n"
+#~ "node tree and storing color animations in the drone object's 'color' property.\n"
+#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
+#~ msgstr ""
+
+
+#~ msgid "Storyboard"
+#~ msgstr "分鏡表"
+
+
+#~ msgid "Intra-slot drones per column"
+#~ msgstr ""
+
+
+#~ msgid "LEDs"
+#~ msgstr ""
+
+
+#~ msgid "Altitude to take off to"
+#~ msgstr ""
+
+
+#~ msgid "to altitude"
+#~ msgstr ""
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr ""
+
+
+#~ msgid "Light Effects"
+#~ msgstr ""
+
+
+#~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
 
@@ -2652,7 +2657,19 @@ msgstr ""
 #~ msgstr "生成標記點"
 
 
+#~ msgid "with velocity Z"
+#~ msgstr ""
+
+
 #~ msgid "LED Control"
+#~ msgstr ""
+
+
+#~ msgid "Safety & Export"
+#~ msgstr ""
+
+
+#~ msgid "Swarm"
 #~ msgstr ""
 
 
@@ -2660,14 +2677,6 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "with velocity"
-#~ msgstr ""
-
-
-#~ msgid "Transition to next"
-#~ msgstr ""
-
-
-#~ msgid "Intra-slot drones per column"
+#~ msgid "Use smart RTH"
 #~ msgstr ""
 
