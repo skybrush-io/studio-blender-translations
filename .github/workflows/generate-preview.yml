@@ -9,7 +9,7 @@ jobs:
       - name: Set up the Deno runtime
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v2.x
+          deno-version: v2.2.x
       - name: Run generator script
         run: ./scripts/generate-preview.js
       - name: Store generated file
