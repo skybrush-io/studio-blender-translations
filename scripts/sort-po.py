@@ -4,6 +4,7 @@
 - Active entries are sorted by full msgid.
 - Obsolete entries (#~) are sorted by full msgid and appended at the end.
 - Preserves internal line breaks.
+- Removes duplicate comments and harmonizes remaining
 
 """
 
@@ -19,6 +20,22 @@ input_dir = Path(sys.argv[1])
 if not input_dir.is_dir():
     print(f"Error: {input_dir} is not a directory")
     sys.exit(1)
+
+
+def clean_entry(entry):
+    comments = [
+        # This hack is needed due to buggy output of manage UI translations plugin of Blender
+        (":src: " + comment) if comment.startswith("bpy.types") else comment
+        for comment in entry.comment.splitlines()
+        if comment.strip(":src:").strip()
+    ]
+    src_comments = [comment for comment in comments if comment.startswith(":src:")]
+    user_comments = [comment for comment in comments if not comment.startswith(":src:")]
+    comments = sorted(src_comments) + user_comments
+
+    entry.comment = "\n".join(dict.fromkeys(comments))
+
+    return entry
 
 
 def sort_po_file(po_path: Path):
@@ -39,11 +56,11 @@ def sort_po_file(po_path: Path):
 
     # Append sorted active entries
     for entry in active_entries:
-        new_po.append(entry)
+        new_po.append(clean_entry(entry))
 
     # Append sorted obsolete entries at the end
     for entry in obsolete_entries:
-        new_po.append(entry)
+        new_po.append(clean_entry(entry))
 
     # Save file safely
     new_po.save(str(po_path))
