@@ -845,7 +845,7 @@ msgstr ""
 msgid "Exports one or more light effects from the light effect list"
 msgstr ""
 
-#: Add-on Skybrush Studio info: description
+#: Add-on Skybrush Studio description info:
 msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
@@ -1706,8 +1706,8 @@ msgid ""
 "between fixed points"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "Prefire time"
 msgstr ""
 
@@ -1720,8 +1720,8 @@ msgstr ""
 msgid "Primary (1)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 #. :src: bpy.types.LEDControlPanelProperties.primary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 msgid "Primary color"
 msgstr ""
 
@@ -2005,8 +2005,8 @@ msgstr ""
 msgid "Secondary (2)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 #. :src: bpy.types.LEDControlPanelProperties.secondary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 msgid "Secondary color"
 msgstr ""
 
@@ -2355,8 +2355,8 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
-#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 msgid "Storyboard"
 msgstr ""
 
@@ -2419,8 +2419,8 @@ msgid ""
 "controls how the colors of the drones are determined"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 #. :src: bpy.types.PyroControlPanelProperties.channel
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 msgid "The (1-based) channel index the pyro is attached to"
 msgstr ""
 
@@ -2430,8 +2430,8 @@ msgid ""
 "drones"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 #. :src: bpy.types.PyroControlPanelProperties.duration
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 msgid "The duration of the pyro effect"
 msgstr ""
 
@@ -2460,8 +2460,8 @@ msgstr ""
 msgid "The string representation of the formation status at the given frame"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "The time needed for the pyro effect to show up after it gets triggered"
 msgstr ""
 

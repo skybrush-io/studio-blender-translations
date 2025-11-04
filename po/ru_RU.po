@@ -362,12 +362,6 @@ msgstr ""
 msgid "Creates the takeoff grid and the corresponding set of drones"
 msgstr ""
 
-#. :src:
-#. bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
@@ -546,8 +540,6 @@ msgstr "Расстояние между слотами на стартовой �
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'DISTANCE'
-#. :src:
-#. bpy.types.SKYBRUSH_OT_apply_colors_to_selection.gradient_mode:'DISTANCE'
 msgid "Distance from 3D cursor"
 msgstr ""
 
@@ -601,13 +593,9 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SafetyCheckProperties.proximity_warning_target:'ABOVE_MIN_NAV_ALT'
-#. :src:
-#. bpy.types.SafetyCheckProperties.proximity_warning_target:'ABOVE_MIN_NAV_ALT'
 msgid "Drones above min altitude"
 msgstr ""
 
-#. :src:
-#. bpy.types.SafetyCheckProperties.proximity_warning_target:'ABOVE_MIN_NAV_ALT'
 #. :src:
 #. bpy.types.SafetyCheckProperties.proximity_warning_target:'ABOVE_MIN_NAV_ALT'
 msgid "Drones above minimum navigation altitude only"
@@ -663,8 +651,6 @@ msgstr ""
 msgid "End frame"
 msgstr ""
 
-#. :src:
-#. bpy.types.SKYBRUSH_OT_reorder_formation_markers.type:'ENSURE_SAFETY_DISTANCE'
 #. :src:
 #. bpy.types.SKYBRUSH_OT_reorder_formation_markers.type:'ENSURE_SAFETY_DISTANCE'
 msgid "Ensure safety distance"
@@ -1000,8 +986,6 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_recalculate_transitions.scope:'FROM_SELECTED_TO_END'
-#. :src:
-#. bpy.types.SKYBRUSH_OT_recalculate_transitions.scope:'FROM_SELECTED_TO_END'
 msgid "From selected formation to end"
 msgstr ""
 
@@ -1205,8 +1189,6 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
-#. :src:
-#. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
 msgid "Input format version"
 msgstr ""
 
@@ -1279,13 +1261,9 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'H'
-#. :src:
-#. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'H'
 msgid "Level H (30%)"
 msgstr ""
 
-#. :src:
-#. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'L'
 #. :src:
 #. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'L'
 msgid "Level L (7%)"
@@ -1293,13 +1271,9 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'M'
-#. :src:
-#. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'M'
 msgid "Level M (15%)"
 msgstr ""
 
-#. :src:
-#. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'Q'
 #. :src:
 #. bpy.types.SKYBRUSH_OT_add_markers_from_qr_code.error_correction_level:'Q'
 msgid "Level Q (25%)"
@@ -1687,8 +1661,6 @@ msgstr ""
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_to
-#. :src:
-#. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_to
 msgid "Output format version"
 msgstr ""
 
@@ -1767,8 +1739,8 @@ msgid ""
 "between fixed points"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "Prefire time"
 msgstr ""
 
@@ -1781,8 +1753,8 @@ msgstr ""
 msgid "Primary (1)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 #. :src: bpy.types.LEDControlPanelProperties.primary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 msgid "Primary color"
 msgstr ""
 
@@ -2066,8 +2038,8 @@ msgstr ""
 msgid "Secondary (2)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 #. :src: bpy.types.LEDControlPanelProperties.secondary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 msgid "Secondary color"
 msgstr ""
 
@@ -2380,8 +2352,6 @@ msgstr ""
 
 #. :src:
 #. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
-#. :src:
-#. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
 msgid ""
 "Specifies whether to have a proposed show origin and orientation, e.g., used"
 " in .skyc export"
@@ -2423,8 +2393,8 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
-#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 msgid "Storyboard"
 msgstr "Раскадровка"
 
@@ -2487,8 +2457,8 @@ msgid ""
 "controls how the colors of the drones are determined"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 #. :src: bpy.types.PyroControlPanelProperties.channel
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 msgid "The (1-based) channel index the pyro is attached to"
 msgstr ""
 
@@ -2498,8 +2468,8 @@ msgid ""
 "drones"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 #. :src: bpy.types.PyroControlPanelProperties.duration
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 msgid "The duration of the pyro effect"
 msgstr ""
 
@@ -2528,8 +2498,8 @@ msgstr ""
 msgid "The string representation of the formation status at the given frame"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "The time needed for the pyro effect to show up after it gets triggered"
 msgstr ""
 
@@ -2759,8 +2729,6 @@ msgstr ""
 
 #. :src:
 #. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
-#. :src:
-#. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
 msgid "Use show origin and orientation"
 msgstr ""
 
@@ -2768,12 +2736,6 @@ msgstr ""
 msgid "Use smart RTH (PRO)"
 msgstr ""
 
-#. :src:
-#. bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'AROUND_CURRENT_FRAME'
-#. bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'AROUND_CURRENT_FRAME'
