@@ -4,9 +4,10 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.13.2 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-10-30 01:19+0000\n"
+"PO-Revision-Date: 2025-11-04 20:19+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -220,9 +221,9 @@ msgid ""
 "    object and designates it to be used in formations.\n"
 "    "
 msgstr ""
-"Blender 操作符，用于获取所选对象的选定顶点组\n"
+"Blender 操作符，用于获取所选对象的选定顶点组，\n"
 "\n"
-"并将其指定用于编队\n"
+"并将其指定用于编队。\n"
 "    "
 
 #. :src: bpy.types.StoryboardEntry
@@ -444,7 +445,9 @@ msgid ""
 "    for drone-launched fireworks in the current drone show.\n"
 "    "
 msgstr ""
-"自定义 Blender 面板，允许用户控制当前无人机表演中无人机 LED 灯的颜色。\n"
+"自定义 Blender 面板，允许用户控制触发事件\n"
+"\n"
+"用于当前无人机表演中无人机发射的烟花。\n"
 "    "
 
 #. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
@@ -1873,11 +1876,11 @@ msgstr "用途"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
 msgid "Pyro"
-msgstr ""
+msgstr "烟花"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
 msgid "Pyro Control"
-msgstr ""
+msgstr "烟花控制"
 
 #. :src: bpy.types.DroneShowAddonObjectProperties.pyro_markers
 msgid "Pyro markers"
@@ -2266,7 +2269,7 @@ msgstr "当前帧中网格的轴对齐边界框的大小"
 #. :src: bpy.types.OBJECT_PT_skybrush_show_panel
 #. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
 msgid "Skybrush"
-msgstr ""
+msgstr "天空刷子"
 
 #. :src: Add-on Skybrush Studio info: name
 msgid "Skybrush Studio"
@@ -2385,7 +2388,7 @@ msgstr "指定无人机表演是室外表演还是室内表演"
 msgid ""
 "Specifies whether the pyro program of each drone should be included in the "
 "show"
-msgstr "明确规定每架无人机的烟火特效是否应包含在表演中"
+msgstr "明确规定每架无人机的烟花特效是否应包含在表演中"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid ""
@@ -2438,7 +2441,7 @@ msgstr "起飞机动的起始帧"
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization:'INFO'
 msgid "Static pyro info for aiding pre-flight handling"
-msgstr ""
+msgstr "用于辅助飞行前操作的静态烟花信息"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
@@ -2624,7 +2627,7 @@ msgstr "轨迹FPS"
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
 msgctxt "Operator"
 msgid "Trigger Pyro on Selected Drones"
-msgstr "对选定的无人机触发烟火"
+msgstr "对选定的无人机触发烟花"
 
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
 msgid ""
@@ -2721,8 +2724,10 @@ msgid ""
 "node tree and storing color animations in the drone object's 'color' property.\n"
 "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
 msgstr ""
-"升级您的旧版 (<4.0) Skybrush Studio for Blender 文件内容，以加快光效播放和导出速度。\n"
-"升级内容包括：将所有无人机对象材质替换为共享模板材质，修改其着色器节点树，并将颜色动画存储在无人机对象的“color”属性中。\n"
+"升级您的旧版 (<4.0) Skybrush Studio for Blender 文件内容，以加快光效播放和导"
+"出速度。升级内容包括：将所有无人机对象材质替换为共享模板材质，修改其着色器节"
+"点树，并将颜色动画存储在无人机对象的“color”属性中。\n"
+"\n"
 "此外，升级还会将活动 3D 视口线框和对象颜色更改为“OBJECT”。"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
