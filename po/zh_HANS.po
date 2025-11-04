@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-06-28 15:16+0000\n"
+"PO-Revision-Date: 2025-10-30 01:19+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hans/>\n"
 "Language: zh_HANS\n"
@@ -51,15 +51,15 @@ msgid "Add a takeoff maneuver to all the drones"
 msgstr "为所有无人机添加起飞动作"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss
-#, fuzzy
 msgid ""
 "Adds markers from .zip compressed DSS .PATH or .PATH3 files\n"
 "    (each containing baked animation of a single drone) to the currently\n"
 "    selected formation.\n"
 "    "
 msgstr ""
-"从与 Skybrush 兼容的 .zip 压缩动态 .csv 文件\n"
-"     （每个文件包含单个无人机的烘焙动画）中添加标记到当前选定的队形。\n"
+"将来自 .zip 压缩的 DSS .PATH 或 .PATH3 文件（每个文件包含单个无人机的烘焙动画）的标记添加到当前\n"
+"\n"
+"选定的编队中。\n"
 "    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv
@@ -139,11 +139,12 @@ msgid ""
 msgstr "将选定的队形附加到表演的结尾，计划上一个队形和新队形之间的转换"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
-#, fuzzy
 msgid ""
 "Applies the current primary or secondary color from the LED control\n"
 "    panel to the selected drones, optionally creating a gradient."
-msgstr "将LED控制面板中的当前主色或次色应用于选定的无人机，可选择创建渐变。"
+msgstr ""
+"将 LED 控制面板中的当前主色或辅助色应用到选定的无人机上，\n"
+"还可以选择创建渐变效果。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid ""
@@ -184,12 +185,13 @@ msgid "Average vertical velocity during the takeoff maneuver"
 msgstr "起飞机动过程中的平均垂直速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
-#, fuzzy
 msgid ""
 "Blender operator that creates the takeoff grid and the corresponding set\n"
 "    of drones.\n"
 "    "
-msgstr "创建起飞网格和相应的无人机集"
+msgstr ""
+"Blender 操作符，用于创建起飞网格和相应的无人机组\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_prepare
 msgid ""
@@ -218,6 +220,10 @@ msgid ""
 "    object and designates it to be used in formations.\n"
 "    "
 msgstr ""
+"Blender 操作符，用于获取所选对象的选定顶点组\n"
+"\n"
+"并将其指定用于编队\n"
+"    "
 
 #. :src: bpy.types.StoryboardEntry
 msgid ""
@@ -275,9 +281,8 @@ msgstr "检查距离"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection
-#, fuzzy
 msgid "Choose a filter type to use for this operation"
-msgstr "选择用于此操作的帧范围"
+msgstr "选择要用于此操作的过滤器类型"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range
@@ -422,6 +427,7 @@ msgid ""
 "initial version (plugin version <= 3.13.2). Version 2 uses a shared material"
 " for all drones to speed up light effects."
 msgstr ""
+"当前版本节目内容存储在 Blender 中。版本 1 为初始版本（插件版本 <= 3.13.2）。版本 2 使用共享材质来加速所有无人机的光照效果。"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
 msgid ""
@@ -433,7 +439,6 @@ msgstr ""
 "    "
 
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
-#, fuzzy
 msgid ""
 "Custom Blender panel that allows the user to control trigger events\n"
 "    for drone-launched fireworks in the current drone show.\n"
@@ -515,6 +520,9 @@ msgid ""
 "    the show, inclusing its type, location and orientation.\n"
 "    "
 msgstr ""
+"自定义 Blender 面板，允许用户指定节目的属性\n"
+"           包括其类型、位置和方向。\n"
+"    "
 
 #. :src: bpy.types.DroneShowAddonObjectProperties
 msgid ""
@@ -571,7 +579,7 @@ msgstr "发车延迟"
 
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.name
 msgid "Descriptor of the pyro effect to trigger"
-msgstr ""
+msgstr "触发烟花的描述符"
 
 #. :src: bpy.types.SKYBRUSH_OT_deselect_formation
 msgctxt "Operator"
@@ -620,7 +628,7 @@ msgstr "与网格的距离"
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'NEVER'
 msgid ""
 "Do not redraw the scene even if it would be needed for the light effects"
-msgstr ""
+msgstr "即使为了灯光效果需要，也不要重新绘制场景"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_collection
 msgid "Drone collection"
@@ -708,7 +716,7 @@ msgstr "实现实时安全检查，将无人机的高度、距离和凸度与每
 
 #. :src: bpy.types.StoryboardEntryOrTransition.frame_end
 msgid "End frame"
-msgstr ""
+msgstr "结束帧"
 
 #. :src:
 #. bpy.types.SKYBRUSH_OT_reorder_formation_markers.type:'ENSURE_SAFETY_DISTANCE'
@@ -742,7 +750,7 @@ msgstr "每四个"
 #. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
 msgid ""
 "Executes an all-pairs proximity check on the drones in the current frame."
-msgstr ""
+msgstr "对当前帧中的所有无人机执行成对接近检查。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac
 msgctxt "Operator"
@@ -752,7 +760,7 @@ msgstr "导出DAC"
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf
 msgctxt "Operator"
 msgid "Export Depence .ddsf format"
-msgstr ""
+msgstr "导出依赖关系 .ddsf 格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgctxt "Operator"
@@ -780,10 +788,9 @@ msgid "Export Finale 3D VVIZ format"
 msgstr "导出Finale 3D VVIZ格式"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects
-#, fuzzy
 msgctxt "Operator"
 msgid "Export Light Effects"
-msgstr "灯光效果"
+msgstr "导出灯光效果"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_litebee
 msgctxt "Operator"
@@ -795,11 +802,10 @@ msgid "Export object trajectories and light animation into .dac format."
 msgstr "将对象轨迹和灯光动画导出为dac格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf
-#, fuzzy
 msgid ""
 "Export object trajectories and light animation into .skyc and .pdf formats "
 "in one request"
-msgstr "将对象轨迹和灯光动画导出为dac格式。"
+msgstr "一次请求即可将物体轨迹和光照动画导出为 .skyc 和 .pdf 格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv
 msgid ""
@@ -808,10 +814,9 @@ msgid ""
 msgstr "将对象轨迹和灯光动画导出为兼容Skybrush的简单CSV格式"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf
-#, fuzzy
 msgid ""
 "Export object trajectories and light animation into Depence .ddsf format."
-msgstr "将对象轨迹和灯光动画导出为dac格式。"
+msgstr "将对象轨迹和光照动画导出为 Depence .ddsf 格式。"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_drotek
 msgid ""
@@ -873,7 +878,7 @@ msgstr "仅导出选定的无人机。取消确认导出所有无人机，无论
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_pyro_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_pyro_control
 msgid "Export pyro (PRO)"
-msgstr ""
+msgstr "导出烟花（专业版）"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.export_selected
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.export_selected
@@ -906,22 +911,20 @@ msgid "Export Skybrush SKYC"
 msgstr "导出 Skybrush SKYC"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf
-#, fuzzy
 msgctxt "Operator"
 msgid "Export Skybrush SKYC+PDF"
-msgstr "导出 Skybrush SKYC"
+msgstr "导出 Skybrush SKYC+PDF"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_yaw_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_yaw_control
-#, fuzzy
 msgid "Export yaw (PRO)"
-msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
+msgstr "导出yaw轴（专业版）"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects
 msgid "Exports one or more light effects from the light effect list"
-msgstr ""
+msgstr "从光效列表中导出一个或多个光效"
 
 #. :src: Add-on Skybrush Studio info: description
 msgid "Extends Blender with UI components for drone show design"
@@ -1112,6 +1115,7 @@ msgid ""
 "will use the standard smart RTH algorithm and finish the procedure with "
 "landing to the desired common altitude"
 msgstr ""
+"启用此功能后，无人机将使用专用规划器返回到起飞点上方的指定空中网格，之后不会自动降落。禁用此功能后，无人机将使用标准的智能返航算法，并降落到预设的公共高度，完成返航过程"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv.import_colors
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_svg.import_colors
@@ -1127,16 +1131,14 @@ msgid "Import colors from the SVG file into a light effect"
 msgstr "将颜色从SVG文件导入到灯光效果中"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss
-#, fuzzy
 msgctxt "Operator"
 msgid "Import DSS PATH/PATH3"
-msgstr "导出DSS PATH3文件（UGCS）"
+msgstr "导入 DSS PATH/PATH3（UGCS）"
 
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects
-#, fuzzy
 msgctxt "Operator"
 msgid "Import Light Effects"
-msgstr "灯光效果"
+msgstr "导入灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv
 msgctxt "Operator"
@@ -1155,7 +1157,7 @@ msgstr "导入Skybrush压缩CSV"
 
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects
 msgid "Imports one or more light effects into the light effect list"
-msgstr ""
+msgstr "将一个或多个灯光效果导入到灯光效果列表中"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.plot_nnall
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.plot_nnall
@@ -1239,7 +1241,7 @@ msgstr "初始化为"
 #. :src:
 #. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
 msgid "Input format version"
-msgstr ""
+msgstr "输入格式版本"
 
 #. :src: bpy.types.LightEffect.target:'INSIDE_MESH'
 msgid "Inside the mesh"
@@ -1292,7 +1294,7 @@ msgstr "终止颜色"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.latitude_of_show_origin
 msgid "Latitude of show origin"
-msgstr ""
+msgstr "显示原点的纬度"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude_shift
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_shift
@@ -1334,7 +1336,6 @@ msgstr "许可证文件"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection
-#, fuzzy
 msgid "Light effects"
 msgstr "灯光效果"
 
@@ -1354,7 +1355,7 @@ msgstr "轻FPS"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
 msgid "Longitude of show origin"
-msgstr ""
+msgstr "显示原点的经度"
 
 #. :src: bpy.types.StoryboardEntry.mapping
 msgid ""
@@ -1372,7 +1373,7 @@ msgstr "映射 Y"
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization:'MARKERS'
 msgid "Markers are simple but quick"
-msgstr ""
+msgstr "标记工具简单但使用快捷"
 
 #. :src: bpy.types.SafetyCheckProperties.max_acceleration
 msgid "Max acceleration"
@@ -1572,7 +1573,7 @@ msgstr "新编队名称"
 
 #. :src: bpy.types.PyroControlPanelProperties.name
 msgid "Name of the pyro effect to trigger"
-msgstr ""
+msgstr "要触发的烟花效果的名称"
 
 #. :src: bpy.types.DroneShowAddonObjectProperties.formation_vertex_group
 msgid ""
@@ -1588,7 +1589,7 @@ msgstr "由插件创建的时间线标记的名称，当触发“更新时间标
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization:'NONE'
 msgid "No rendering is very quick but invisible"
-msgstr ""
+msgstr "没有渲染，速度很快，但几乎看不见"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.drones_per_slot_col
 msgid "Number of columns in a single slot"
@@ -1712,7 +1713,7 @@ msgstr "户外表演，针对使用大地测量（GPS）坐标系导航的无人
 #. :src:
 #. bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_to
 msgid "Output format version"
-msgstr ""
+msgstr "输出格式版本"
 
 #. :src: bpy.types.LightEffect.output
 msgid ""
@@ -1744,7 +1745,7 @@ msgstr "输出 Y 函数"
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization:'PARTICLES'
 msgid "Particles are spectacular but slow"
-msgstr ""
+msgstr "粒子运动壮观但速度缓慢"
 
 #. :src: bpy.types.ColorFunctionProperties.path
 msgid "Path to the custom color function file"
@@ -1792,7 +1793,7 @@ msgstr "在规划固定点之间的过渡时间时，无人机的首选加速度
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "Prefire time"
-msgstr ""
+msgstr "预燃时间"
 
 #. :src: bpy.types.SKYBRUSH_OT_prepare
 msgctxt "Operator"
@@ -1849,18 +1850,18 @@ msgstr "相称的"
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.latitude_of_show_origin
 msgid ""
 "Proposed latitude of the origin of the show coordinate system, in degrees"
-msgstr ""
+msgstr "建议的演出坐标系原点纬度（以度为单位）"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
 msgid ""
 "Proposed longitude of the origin of the show coordinate system, in degrees"
-msgstr ""
+msgstr "建议的显示坐标系原点经度，单位为度"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
 msgid ""
 "Proposed orientation of the X+ axis of the show coordinate system relative "
 "to North (towards East)"
-msgstr ""
+msgstr "建议的显示坐标系 X 轴相对于正北方向（朝向正东）的方位"
 
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_threshold
 msgid "Proximity warning threshold"
@@ -1880,12 +1881,12 @@ msgstr ""
 
 #. :src: bpy.types.DroneShowAddonObjectProperties.pyro_markers
 msgid "Pyro markers"
-msgstr ""
+msgstr "烟花标记"
 
 #. :src: bpy.types.DroneShowAddonObjectProperties.pyro_markers
 msgid ""
 "Pyro trigger events associated with an object, stored as a JSON string."
-msgstr ""
+msgstr "烟花触发与对象关联的事件，以 JSON 字符串形式存储。"
 
 #. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
 msgid ""
@@ -1896,6 +1897,13 @@ msgid ""
 "    informs the user if the backend is outdated.\n"
 "    "
 msgstr ""
+"向服务器查询服务器支持的文件格式列表。\n"
+"\n"
+"\n"
+"请注意，该操作符还会在后台检查后端版本，\n"
+"\n"
+"并在后端版本过旧时通知用户。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_refresh_file_formats
 msgid "Queries the supported file formats from the server"
@@ -1933,7 +1941,7 @@ msgstr "基于当前故事板重新计算节目中的所有过渡"
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw
 msgid "Redraw frames"
-msgstr ""
+msgstr "重绘帧"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw:'ALWAYS'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw:'ALWAYS'
@@ -1948,7 +1956,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw:'ALWAYS'
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'ALWAYS'
 msgid "Redraw the scene even if it would not be needed for the light effects"
-msgstr ""
+msgstr "即使对光效来说并非必要，也请重新绘制场景"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.redraw:'AUTO'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.redraw:'AUTO'
@@ -1964,7 +1972,7 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw:'AUTO'
 msgid ""
 "Redraw the scene only if necessary for the light effects to work correctly"
-msgstr ""
+msgstr "仅当为了使光照效果正确运行而必须重新绘制场景时才这样做。"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid "Relative Altitude"
@@ -2028,7 +2036,7 @@ msgstr "将无人机返回原位"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.to_aerial_grid
 msgid "Return to aerial grid (PRO)"
-msgstr ""
+msgstr "返回空中网格（专业版）"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats
 msgid ""
@@ -2111,12 +2119,12 @@ msgstr "在所选无人机上设置的次要颜色；仅用于渐变"
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'ENABLED'
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection:'ENABLED'
 msgid "Select all enabled light effects"
-msgstr ""
+msgstr "选择所有已启用的灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'ALL'
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection:'ALL'
 msgid "Select all light effects"
-msgstr ""
+msgstr "选择所有灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_select_formation
 msgctxt "Operator"
@@ -2125,7 +2133,7 @@ msgstr "选择编队"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection:'SELECTED'
 msgid "Select only the currently active light effect"
-msgstr ""
+msgstr "仅选择当前激活的灯光效果"
 
 #. :src: bpy.types.SKYBRUSH_OT_select_storyboard_entry_for_current_frame
 msgctxt "Operator"
@@ -2167,12 +2175,12 @@ msgstr "服务器URL"
 #. :src: bpy.types.SKYBRUSH_OT_set_light_effect_end_frame
 msgctxt "Operator"
 msgid "Set Light Effect End Frame"
-msgstr ""
+msgstr "设置灯光效果结束帧"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_light_effect_start_frame
 msgctxt "Operator"
 msgid "Set Light Effect Start Frame"
-msgstr ""
+msgstr "设置灯光效果起始帧"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_server_url
 msgctxt "Operator"
@@ -2180,16 +2188,14 @@ msgid "Set server URL"
 msgstr "设置服务器URL"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_end_frame
-#, fuzzy
 msgctxt "Operator"
 msgid "Set Storyboard Entry End Frame"
-msgstr "为当前帧选择故事板条目"
+msgstr "设置故事板入口结束帧"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_start_frame
-#, fuzzy
 msgctxt "Operator"
 msgid "Set Storyboard Entry Start Frame"
-msgstr "为当前帧选择故事板条目"
+msgstr "设置故事板条目起始帧"
 
 #. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
 msgid ""
@@ -2199,28 +2205,27 @@ msgstr "将当前顶点组设置为将对象放置在队形中时应用作目标
 
 #. :src: bpy.types.SKYBRUSH_OT_set_light_effect_end_frame
 msgid "Sets the end frame of the light effect to the current frame."
-msgstr ""
+msgstr "将光效的结束帧设置为当前帧。"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_end_frame
 msgid "Sets the end frame of the storyboard entry to the current frame."
-msgstr ""
+msgstr "将故事板条目的结束帧设置为当前帧。"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_server_url
 msgid "Sets the server URL to a fixed value"
 msgstr "将服务器URL设置为固定值"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_server_url
-#, fuzzy
 msgid "Sets the server URL to a fixed value."
 msgstr "将服务器URL设置为固定值"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_light_effect_start_frame
 msgid "Sets the start frame of the light effect to the current frame."
-msgstr ""
+msgstr "将光效的起始帧设置为当前帧。"
 
 #. :src: bpy.types.SKYBRUSH_OT_set_storyboard_entry_start_frame
 msgid "Sets the start frame of the storyboard entry to the current frame."
-msgstr ""
+msgstr "将故事板条目的起始帧设置为当前帧。"
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_enabled
 msgid "Show acceleration warnings"
@@ -2236,7 +2241,7 @@ msgstr "显示标记的顺序"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
 msgid "Show orientation"
-msgstr ""
+msgstr "显示方向"
 
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_enabled
 msgid "Show proximity warnings"
@@ -2377,11 +2382,10 @@ msgstr "指定无人机表演是室外表演还是室内表演"
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.use_pyro_control
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.use_pyro_control
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.use_pyro_control
-#, fuzzy
 msgid ""
 "Specifies whether the pyro program of each drone should be included in the "
 "show"
-msgstr "指定在表演期间是否应该控制每个无人机的偏航角"
+msgstr "明确规定每架无人机的烟火特效是否应包含在表演中"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_is_relative
 msgid ""
@@ -2410,16 +2414,15 @@ msgstr "指定是否将此灯光效果应用于所有无人机，或仅应用于
 msgid ""
 "Specifies whether to have a proposed show origin and orientation, e.g., used"
 " in .skyc export"
-msgstr ""
+msgstr "指定是否包含建议的显示原点和方向，例如，用于 .skyc 导出文件"
 
 #. :src: bpy.types.StoryboardEntry.transition_schedule:'STAGGERED'
 msgid "Staggered"
 msgstr "交错的"
 
 #. :src: bpy.types.StoryboardEntryOrTransition.frame_start
-#, fuzzy
 msgid "Start frame"
-msgstr "在帧处"
+msgstr "开始帧处"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.start_frame
 msgid "Start frame of the landing maneuver"
@@ -2457,7 +2460,7 @@ msgstr "故事板"
 #. :src: bpy.types.LightEffect.storyboard_entry_or_transition
 #. :src: bpy.types.LightEffect.storyboard_entry_or_transition_selection
 msgid "Storyboard entry/transition"
-msgstr ""
+msgstr "故事板输入/过渡"
 
 #. :src: bpy.types.StringProperty.default
 msgid "String default value"
@@ -2516,7 +2519,7 @@ msgstr "灯光效果的纹理，用于保存颜色渐变或图像，以控制如
 #. :src: bpy.types.PyroControlPanelProperties.channel
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 msgid "The (1-based) channel index the pyro is attached to"
-msgstr ""
+msgstr "火药所连接的（从 1 开始的）通道索引"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.drone_collection
 msgid ""
@@ -2527,13 +2530,13 @@ msgstr "包含将被视为无人机的所有对象的集合"
 #. :src: bpy.types.PyroControlPanelProperties.duration
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 msgid "The duration of the pyro effect"
-msgstr ""
+msgstr "烟花效果的持续时间"
 
 #. :src: bpy.types.LightEffect.storyboard_entry_or_transition
 msgid ""
 "The internal storage for the storyboard entry/transition attached to this "
 "light effect"
-msgstr ""
+msgstr "此灯光效果附带故事板入口/过渡的内部存储空间"
 
 #. :src: bpy.types.StoryboardEntry.purpose
 msgid ""
@@ -2548,7 +2551,7 @@ msgstr "用于创建无人机模板的半径。"
 
 #. :src: bpy.types.LightEffect.storyboard_entry_or_transition_selection
 msgid "The storyboard entry/transition attached to this light effect"
-msgstr ""
+msgstr "此灯光效果附带的故事板入口/过渡动画"
 
 #. :src: bpy.types.SafetyCheckProperties.formation_status
 msgid "The string representation of the formation status at the given frame"
@@ -2557,11 +2560,11 @@ msgstr "给定帧的编队状态的字符串表示"
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "The time needed for the pyro effect to show up after it gets triggered"
-msgstr ""
+msgstr "从触发到烟花效果显现所需的时间"
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization
 msgid "The visualization method of the pyro effect."
-msgstr ""
+msgstr "烟花效果的可视化方法。"
 
 #. :src: bpy.types.StoryboardEntryOrTransition
 msgid ""
@@ -2569,6 +2572,9 @@ msgid ""
 "    parameters of a storyboard entry or a transition between\n"
 "    two entries, for external usage, e.g. by light effects."
 msgstr ""
+"这是一个简化的类，仅用于存储一些\n"
+"故事板条目或两个条目之间过渡的参数，\n"
+"供外部使用，例如用于灯光效果。"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.spindown_time
 msgid "Time it takes for the motors to spin down after a successful landing"
@@ -2618,19 +2624,21 @@ msgstr "轨迹FPS"
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
 msgctxt "Operator"
 msgid "Trigger Pyro on Selected Drones"
-msgstr ""
+msgstr "对选定的无人机触发烟火"
 
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
 msgid ""
 "Triggers the defined pyro effect of the Pyro control panel\n"
 "    on the currently selected drones."
 msgstr ""
+"触发火焰控制面板中设定的火焰效果\n"
+"作用于当前选定的无人机。"
 
 #. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection
 msgid ""
 "Triggers the defined pyro effect of the Pyro control panel on the currently "
 "selected drones"
-msgstr ""
+msgstr "触发火焰控制面板中设定的火焰效果，作用于当前选定的无人机"
 
 #. :src: bpy.types.LightEffect.type
 msgid ""
@@ -2655,7 +2663,7 @@ msgstr "此故事板条目的唯一标识符；在条目的整个生命周期内
 
 #. :src: bpy.types.StoryboardEntry.purpose:'UNSPECIFIED'
 msgid "Unspecified"
-msgstr ""
+msgstr "未指定"
 
 #. :src: bpy.types.SKYBRUSH_OT_update_time_markers_from_storyboard
 msgid "Update all time markers to be synchronized with the storyboard"
@@ -2669,7 +2677,7 @@ msgstr "更新形成持续时间"
 #. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration
 msgctxt "Operator"
 msgid "Update file content to speed up light effect rendering"
-msgstr ""
+msgstr "更新文件内容以加快光效渲染速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_update_frame_range_from_storyboard
 msgctxt "Operator"
@@ -2713,6 +2721,9 @@ msgid ""
 "node tree and storing color animations in the drone object's 'color' property.\n"
 "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
 msgstr ""
+"升级您的旧版 (<4.0) Skybrush Studio for Blender 文件内容，以加快光效播放和导出速度。\n"
+"升级内容包括：将所有无人机对象材质替换为共享模板材质，修改其着色器节点树，并将颜色动画存储在无人机对象的“color”属性中。\n"
+"此外，升级还会将活动 3D 视口线框和对象颜色更改为“OBJECT”。"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.server_url
 msgid ""
@@ -2782,12 +2793,11 @@ msgstr "使用单独的列间距"
 #. :src:
 #. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
 msgid "Use show origin and orientation"
-msgstr ""
+msgstr "使用“显示原点和方向”功能"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_smart_rth
-#, fuzzy
 msgid "Use smart RTH (PRO)"
-msgstr "使用智能返航"
+msgstr "使用智能返航（专业版）"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'AROUND_CURRENT_FRAME'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'AROUND_CURRENT_FRAME'
@@ -2843,7 +2853,7 @@ msgstr "验证无人机在给定帧范围内的轨迹。"
 
 #. :src: bpy.types.PyroControlPanelProperties.visualization
 msgid "Visualization"
-msgstr ""
+msgstr "可视化"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.use_custom_spacing
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_custom_spacing
@@ -2906,7 +2916,7 @@ msgstr "是否在加载项中启用实验功能。实验功能目前处于测试
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.redraw
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.redraw
 msgid "Whether to redraw the scene during export after every frame"
-msgstr ""
+msgstr "导出过程中是否每帧之后都要重新绘制场景"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.velocity
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity
