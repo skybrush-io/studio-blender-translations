@@ -50,6 +50,10 @@ msgid ""
 "    expression or something similar"
 msgstr ""
 
+#. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
+msgid "Generate Markers"
+msgstr ""
+
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid ""
 "Applies the current primary or secondary color from the LED control\n"
@@ -246,6 +250,23 @@ msgstr ""
 #. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
+msgstr ""
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Storyboard"
 msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
@@ -1585,12 +1606,25 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.DATA_PT_skybrush_properties
+msgid "Drone Show"
+msgstr ""
+
 #. :src: bpy.types.OBJECT_PT_LightEffectsPanel
 msgid ""
 "Custom Blender panel that allows the user to specify the list of light\n"
 "    effects that are calculated on-demand when navigating to the appropriate\n"
 "    frames (instead of using keyframes).\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LEDs"
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+msgid "Light Effects"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_export_panel
@@ -1600,11 +1634,21 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_export_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety & Export"
+msgstr ""
+
 #. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
 msgid ""
 "Custom Blender panel that allows the user to create new formations or\n"
 "    update existing ones.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Formations"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
@@ -1614,11 +1658,23 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LED Control"
+msgstr ""
+
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
 msgid ""
 "Custom Blender panel that allows the user to control trigger events\n"
 "    for drone-launched fireworks in the current drone show.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro"
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro Control"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
@@ -1629,11 +1685,20 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety Check"
+msgstr ""
+
 #. :src: bpy.types.OBJECT_PT_skybrush_show_panel
 msgid ""
 "Custom Blender panel that allows the user to specify the properties of\n"
 "    the show, inclusing its type, location and orientation.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_show_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Skybrush"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
@@ -1650,15 +1715,8 @@ msgid ""
 "    "
 msgstr ""
 
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_post
-msgid ""
-"Edits the transition to the formation that follows the currently selected\n"
-"    formation.\n"
-"    "
-msgstr ""
-
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_pre
-msgid "Edits the transition into the currently selected formation."
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Swarm"
 msgstr ""
 
 #. :src: bpy.types.CollectionProperty
@@ -2566,11 +2624,22 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
 
+#~ msgid "Edits the transition into the currently selected formation."
+#~ msgstr ""
+
+
 #~ msgid ""
 #~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
 #~ "to speed up light effect playback and show export, by replacing all\n"
 #~ "drone object materials to a shared template material, modifying its shader\n"
 #~ "node tree and storing color animations in the drone object's 'color' property.\n"
 #~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
+#~ msgstr ""
+
+
+#~ msgid ""
+#~ "Edits the transition to the formation that follows the currently selected\n"
+#~ "    formation.\n"
+#~ "    "
 #~ msgstr ""
 

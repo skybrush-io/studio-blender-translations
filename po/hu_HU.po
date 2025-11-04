@@ -51,6 +51,10 @@ msgstr ""
 "Alakzatok generálása ZIP vagy CSV fileokból, QR kódból, matematikai\n"
 "függvényekből, vagy valami hasonlóból"
 
+#. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
+msgid "Generate Markers"
+msgstr "Marker generálás"
+
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid ""
 "Applies the current primary or secondary color from the LED control\n"
@@ -248,6 +252,23 @@ msgstr "Képkocka-tartomány"
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
 msgstr "Válassza ki a művelethez használni kívánt képkocka-tartományt"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Storyboard"
+msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
@@ -1567,13 +1588,14 @@ msgid "Update file content to speed up light effect rendering"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration
+#, fuzzy
 msgid ""
 "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
 "to speed up light effect playback and show export, by replacing all\n"
 "drone object materials to a shared template material, modifying its shader\n"
 "node tree and storing color animations in the drone object's 'color' property.\n"
 "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
-msgstr ""
+msgstr "Forgatókönyv"
 
 #. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
 msgid "Input format version"
@@ -1598,6 +1620,10 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.DATA_PT_skybrush_properties
+msgid "Drone Show"
+msgstr ""
+
 #. :src: bpy.types.OBJECT_PT_LightEffectsPanel
 msgid ""
 "Custom Blender panel that allows the user to specify the list of light\n"
@@ -1606,12 +1632,26 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LEDs"
+msgstr "Fények"
+
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+msgid "Light Effects"
+msgstr "Fényeffektusok"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_export_panel
 msgid ""
 "Custom Blender panel that allows the user to export the current show into\n"
 "    one of the supported formats.\n"
 "    "
 msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_export_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety & Export"
+msgstr "Biztonság & Mentés"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
 msgid ""
@@ -1620,6 +1660,11 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Formations"
+msgstr "Alakzatok"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
 msgid ""
 "Custom Blender panel that allows the user to control the color of the\n"
@@ -1627,11 +1672,23 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LED Control"
+msgstr "Fényvezérlés"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
 msgid ""
 "Custom Blender panel that allows the user to control trigger events\n"
 "    for drone-launched fireworks in the current drone show.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro"
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro Control"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
@@ -1642,11 +1699,20 @@ msgid ""
 "    "
 msgstr ""
 
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety Check"
+msgstr "Biztonsági ellenőrzés"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_show_panel
 msgid ""
 "Custom Blender panel that allows the user to specify the properties of\n"
 "    the show, inclusing its type, location and orientation.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_show_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Skybrush"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
@@ -1663,16 +1729,9 @@ msgid ""
 "    "
 msgstr ""
 
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_post
-msgid ""
-"Edits the transition to the formation that follows the currently selected\n"
-"    formation.\n"
-"    "
-msgstr ""
-
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_pre
-msgid "Edits the transition into the currently selected formation."
-msgstr ""
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Swarm"
+msgstr "Drónraj"
 
 #. :src: bpy.types.CollectionProperty
 msgid "Collection Definition"
@@ -2579,27 +2638,14 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr ""
 
 
-#~ msgid "Transition to next"
+#~ msgid ""
+#~ "Edits the transition to the formation that follows the currently selected\n"
+#~ "    formation.\n"
+#~ "    "
 #~ msgstr ""
 
 
-#~ msgid "Safety Check"
-#~ msgstr "Biztonsági ellenőrzés"
-
-
-#~ msgid "Number of drones that can be placed within a single slot row"
-#~ msgstr ""
-
-
-#~ msgid "with velocity"
-#~ msgstr ""
-
-
-#~ msgid "Drone Show"
-#~ msgstr ""
-
-
-#~ msgid "Intra-slot drones per row"
+#~ msgid "Max Z velocity"
 #~ msgstr ""
 
 
@@ -2607,16 +2653,37 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Formations"
-#~ msgstr "Alakzatok"
+#~ msgid ""
+#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+#~ "to speed up light effect playback and show export, by replacing all\n"
+#~ "drone object materials to a shared template material, modifying its shader\n"
+#~ "node tree and storing color animations in the drone object's 'color' property.\n"
+#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'.Storyboard"
+#~ msgstr "Forgatókönyv"
 
 
-#~ msgid "Transition from previous"
+#~ msgid "Transition to next"
 #~ msgstr ""
 
 
 #~ msgid "Export yaw"
 #~ msgstr "Irányszög exportálása"
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr ""
+
+
+#~ msgid "to altitude"
+#~ msgstr ""
+
+
+#~ msgid "Number of drones that can be placed within a single slot row"
+#~ msgstr ""
+
+
+#~ msgid "Intra-slot drones per row"
+#~ msgstr ""
 
 
 #~ msgid ""
@@ -2628,62 +2695,34 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Storyboard"
-#~ msgstr "Forgatókönyv"
-
-
-#~ msgid "Intra-slot drones per column"
+#~ msgid "with velocity Z"
 #~ msgstr ""
 
 
-#~ msgid "LEDs"
-#~ msgstr "Fények"
-
-
-#~ msgid "Altitude to take off to"
+#~ msgid "Use smart RTH"
 #~ msgstr ""
 
 
-#~ msgid "to altitude"
+#~ msgid "with velocity"
 #~ msgstr ""
 
 
-#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgid "Edits the transition into the currently selected formation."
 #~ msgstr ""
 
 
-#~ msgid "Light Effects"
-#~ msgstr "Fényeffektusok"
+#~ msgid "Transition from previous"
+#~ msgstr ""
 
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr ""
 
 
-#~ msgid "Generate Markers"
-#~ msgstr "Marker generálás"
-
-
-#~ msgid "with velocity Z"
+#~ msgid "Intra-slot drones per column"
 #~ msgstr ""
 
 
-#~ msgid "LED Control"
-#~ msgstr "Fényvezérlés"
-
-
-#~ msgid "Safety & Export"
-#~ msgstr "Biztonság & Mentés"
-
-
-#~ msgid "Swarm"
-#~ msgstr "Drónraj"
-
-
-#~ msgid "Max Z velocity"
-#~ msgstr ""
-
-
-#~ msgid "Use smart RTH"
+#~ msgid "Altitude to take off to"
 #~ msgstr ""
 

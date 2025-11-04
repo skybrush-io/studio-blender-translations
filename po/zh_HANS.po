@@ -54,6 +54,10 @@ msgstr ""
 "从一个压缩的CSV文件，一个二维码，一个数学表达式\n"
 "类似的东西生成格式"
 
+#. :src: bpy.types.OBJECT_MT_skybrush_generate_markers
+msgid "Generate Markers"
+msgstr "生成标记"
+
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 #, fuzzy
 msgid ""
@@ -264,6 +268,23 @@ msgstr "帧范围"
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range
 msgid "Choose a frame range to use for this operation"
 msgstr "选择用于此操作的帧范围"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_drotek.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_dss_path3.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_evsky.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_litebee.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_csv.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_skybrush_pdf.frame_range:'STORYBOARD'
+#. :src: bpy.types.EXPORT_SCENE_OT_vviz.frame_range:'STORYBOARD'
+#. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Storyboard"
+msgstr ""
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
@@ -1594,13 +1615,14 @@ msgid "Update file content to speed up light effect rendering"
 msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration
+#, fuzzy
 msgid ""
 "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
 "to speed up light effect playback and show export, by replacing all\n"
 "drone object materials to a shared template material, modifying its shader\n"
 "node tree and storing color animations in the drone object's 'color' property.\n"
 "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
-msgstr ""
+msgstr "故事板"
 
 #. :src: bpy.types.SKYBRUSH_OT_use_shared_material_for_all_drones_migration.version_from
 msgid "Input format version"
@@ -1627,6 +1649,10 @@ msgstr ""
 "自定义 Blender 面板，允许用户编辑 Blender 对象的无人机表演特定属性。\n"
 "    "
 
+#. :src: bpy.types.DATA_PT_skybrush_properties
+msgid "Drone Show"
+msgstr "无人机表演"
+
 #. :src: bpy.types.OBJECT_PT_LightEffectsPanel
 msgid ""
 "Custom Blender panel that allows the user to specify the list of light\n"
@@ -1637,6 +1663,15 @@ msgstr ""
 "自定义 Blender 面板，允许用户指定灯光效果列表，这些效果在导航到相应帧时按需计算（而不是使用关键帧）。\n"
 "    "
 
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LEDs"
+msgstr "灯光"
+
+#. :src: bpy.types.OBJECT_PT_LightEffectsPanel
+msgid "Light Effects"
+msgstr "灯光效果"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_export_panel
 msgid ""
 "Custom Blender panel that allows the user to export the current show into\n"
@@ -1645,6 +1680,11 @@ msgid ""
 msgstr ""
 "自定义 Blender 面板，允许用户将当前表演导出为支持的格式之一。\n"
 "    "
+
+#. :src: bpy.types.OBJECT_PT_skybrush_export_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety & Export"
+msgstr "安全与导出"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
 msgid ""
@@ -1655,6 +1695,11 @@ msgstr ""
 "自定义 Blender 面板，允许用户创建新的队形或更新现有队形。\n"
 "    "
 
+#. :src: bpy.types.OBJECT_PT_skybrush_formations_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
+msgid "Formations"
+msgstr "编队"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
 msgid ""
 "Custom Blender panel that allows the user to control the color of the\n"
@@ -1663,6 +1708,10 @@ msgid ""
 msgstr ""
 "自定义 Blender 面板，允许用户控制当前无人机表演中无人机 LED 灯的颜色。\n"
 "    "
+
+#. :src: bpy.types.OBJECT_PT_skybrush_led_control_panel
+msgid "LED Control"
+msgstr "LED控制"
 
 #. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
 #, fuzzy
@@ -1673,6 +1722,14 @@ msgid ""
 msgstr ""
 "自定义 Blender 面板，允许用户控制当前无人机表演中无人机 LED 灯的颜色。\n"
 "    "
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro"
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_pyro_control_panel
+msgid "Pyro Control"
+msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
 msgid ""
@@ -1685,11 +1742,20 @@ msgstr ""
 "并检查当前 Blender 帧中无人机的最小距离和最大速度。\n"
 "    "
 
+#. :src: bpy.types.OBJECT_PT_skybrush_safety_check_panel
+msgid "Safety Check"
+msgstr "安全检查"
+
 #. :src: bpy.types.OBJECT_PT_skybrush_show_panel
 msgid ""
 "Custom Blender panel that allows the user to specify the properties of\n"
 "    the show, inclusing its type, location and orientation.\n"
 "    "
+msgstr ""
+
+#. :src: bpy.types.OBJECT_PT_skybrush_show_panel
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Skybrush"
 msgstr ""
 
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
@@ -1711,18 +1777,9 @@ msgstr ""
 "          并对其执行集体起飞和集体降落操作。\n"
 "    "
 
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_post
-msgid ""
-"Edits the transition to the formation that follows the currently selected\n"
-"    formation.\n"
-"    "
-msgstr ""
-"编辑到当前选定队形之后的队形的过渡。\n"
-"    "
-
-#. :src: bpy.types.OBJECT_PT_skybrush_transition_editor_pre
-msgid "Edits the transition into the currently selected formation."
-msgstr "编辑进入当前选定队形的过渡。"
+#. :src: bpy.types.OBJECT_PT_skybrush_swarm_panel
+msgid "Swarm"
+msgstr "集群"
 
 #. :src: bpy.types.CollectionProperty
 msgid "Collection Definition"
@@ -2652,44 +2709,54 @@ msgid "Extends Blender with UI components for drone show design"
 msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 
 
-#~ msgid "Transition to next"
-#~ msgstr "过渡到下一个"
+#~ msgid ""
+#~ "Edits the transition to the formation that follows the currently selected\n"
+#~ "    formation.\n"
+#~ "    "
+#~ msgstr ""
+#~ "编辑到当前选定队形之后的队形的过渡。\n"
+#~ "    "
 
 
-#~ msgid "Safety Check"
-#~ msgstr "安全检查"
-
-
-#~ msgid "Number of drones that can be placed within a single slot row"
-#~ msgstr "单个槽行中可以放置的无人机数量"
-
-
-#~ msgid "with velocity"
-#~ msgstr "带速度"
-
-
-#~ msgid "Drone Show"
-#~ msgstr "无人机表演"
-
-
-#~ msgid "Intra-slot drones per row"
-#~ msgstr "每行的槽内无人机数量"
+#~ msgid "Max Z velocity"
+#~ msgstr "最大Z速度"
 
 
 #~ msgid "at frame"
 #~ msgstr "在帧处"
 
 
-#~ msgid "Formations"
-#~ msgstr "编队"
+#~ msgid ""
+#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
+#~ "to speed up light effect playback and show export, by replacing all\n"
+#~ "drone object materials to a shared template material, modifying its shader\n"
+#~ "node tree and storing color animations in the drone object's 'color' property.\n"
+#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'.Storyboard"
+#~ msgstr "故事板"
 
 
-#~ msgid "Transition from previous"
-#~ msgstr "从上一个过渡"
+#~ msgid "Transition to next"
+#~ msgstr "过渡到下一个"
 
 
 #~ msgid "Export yaw"
 #~ msgstr "导出yaw轴（无人机带方向自转，无特殊需求不用打这个勾）"
+
+
+#~ msgid "Number of drones that can be placed within a single slot column"
+#~ msgstr "单个槽列中可以放置的无人机数量"
+
+
+#~ msgid "to altitude"
+#~ msgstr "到海拔高度"
+
+
+#~ msgid "Number of drones that can be placed within a single slot row"
+#~ msgstr "单个槽行中可以放置的无人机数量"
+
+
+#~ msgid "Intra-slot drones per row"
+#~ msgstr "每行的槽内无人机数量"
 
 
 #~ msgid ""
@@ -2701,62 +2768,34 @@ msgstr "扩展 Blender，增加了用于无人机表演设计的 UI 组件"
 #~ msgstr ""
 
 
-#~ msgid "Storyboard"
-#~ msgstr "故事板"
+#~ msgid "with velocity Z"
+#~ msgstr "Z 轴速度"
 
 
-#~ msgid "Intra-slot drones per column"
-#~ msgstr "每列的槽内无人机数量"
+#~ msgid "Use smart RTH"
+#~ msgstr "使用智能返航"
 
 
-#~ msgid "LEDs"
-#~ msgstr "灯光"
+#~ msgid "with velocity"
+#~ msgstr "带速度"
 
 
-#~ msgid "Altitude to take off to"
-#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
+#~ msgid "Edits the transition into the currently selected formation."
+#~ msgstr "编辑进入当前选定队形的过渡。"
 
 
-#~ msgid "to altitude"
-#~ msgstr "到海拔高度"
-
-
-#~ msgid "Number of drones that can be placed within a single slot column"
-#~ msgstr "单个槽列中可以放置的无人机数量"
-
-
-#~ msgid "Light Effects"
-#~ msgstr "灯光效果"
+#~ msgid "Transition from previous"
+#~ msgstr "从上一个过渡"
 
 
 #~ msgid "Maximum acceleration allowed when planning the duration of transitions between fixed points"
 #~ msgstr "规划固定点之间过渡的持续时间时允许的最大加速度"
 
 
-#~ msgid "Generate Markers"
-#~ msgstr "生成标记"
+#~ msgid "Intra-slot drones per column"
+#~ msgstr "每列的槽内无人机数量"
 
 
-#~ msgid "with velocity Z"
-#~ msgstr "Z 轴速度"
-
-
-#~ msgid "LED Control"
-#~ msgstr "LED控制"
-
-
-#~ msgid "Safety & Export"
-#~ msgstr "安全与导出"
-
-
-#~ msgid "Swarm"
-#~ msgstr "集群"
-
-
-#~ msgid "Max Z velocity"
-#~ msgstr "最大Z速度"
-
-
-#~ msgid "Use smart RTH"
-#~ msgstr "使用智能返航"
+#~ msgid "Altitude to take off to"
+#~ msgstr "如果使用分层起飞（勾选间距限制时，插件会自动使用分层起飞），则为最后一层无人机起飞后的高度"
 
