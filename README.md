@@ -32,3 +32,7 @@ Updating translation source of this repo is done by the Skybrush team from time 
 3. Press the "Refresh I18n Data..." button in the "Manage UI translations" add-on.
 4. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files.
 5. Finally, perform steps 3.3 and 3.4 from the previous section to have a synchronized translation database in the `skybrush-studio-blender` and `skybrush-studio-blender-translations` repositories.
+
+**WARNING**: Note that the "Manage UI translations" addon in Blender 4.4 and 4.5 (and actually main as of 2025.11.04.) does not handle string extraction from custom panels and menus properly, so the official version of `scripts/modules/_bl_i18n_utils/bl_extract_messages.py` of Blender need to be patched by this PR: https://github.com/blender/blender/pull/102/ for the time being.
+
+**WARNING**: Also note that our custom classes that are defined based on some of our custom base classes (e.g. `class TransitionEditorIntoCurrentFormation(TransitionEditorBase)`) are also mishandled by the translation plugin as these base classes are not registered on their own and thus the translation plugin cannot detect them as related to the Skybrush addon, hence some related strings are also not extracted for the time being.
