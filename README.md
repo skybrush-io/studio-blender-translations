@@ -29,6 +29,6 @@ Updating translation source of this repo is done by the Skybrush team from time 
 
 1. Temporarily copy the auto-generated `translations-tuple` section from `src/modules/sbstudio/i18n/translations.py` to the end of `ui_skybrush_studio.py`.
 2. Open Blender.
-3. Press the "Refresh PO..." button in the "Manage UI translations" add-on.
+3. Press the "Refresh I18n Data..." button in the "Manage UI translations" add-on.
 4. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files.
 5. Finally, perform steps 3.3 and 3.4 from the previous section to have a synchronized translation database in the `skybrush-studio-blender` and `skybrush-studio-blender-translations` repositories.
