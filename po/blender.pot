@@ -1691,8 +1691,8 @@ msgid ""
 "between fixed points"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "Prefire time"
 msgstr ""
 
@@ -1705,8 +1705,8 @@ msgstr ""
 msgid "Primary (1)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 #. :src: bpy.types.LEDControlPanelProperties.primary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.primary_color
 msgid "Primary color"
 msgstr ""
 
@@ -1973,8 +1973,8 @@ msgstr ""
 msgid "Secondary (2)"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 #. :src: bpy.types.LEDControlPanelProperties.secondary_color
+#. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.secondary_color
 msgid "Secondary color"
 msgstr ""
 
@@ -2361,8 +2361,8 @@ msgid ""
 "controls how the colors of the drones are determined"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 #. :src: bpy.types.PyroControlPanelProperties.channel
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.channel
 msgid "The (1-based) channel index the pyro is attached to"
 msgstr ""
 
@@ -2372,8 +2372,8 @@ msgid ""
 "drones"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 #. :src: bpy.types.PyroControlPanelProperties.duration
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.duration
 msgid "The duration of the pyro effect"
 msgstr ""
 
@@ -2402,8 +2402,8 @@ msgstr ""
 msgid "The string representation of the formation status at the given frame"
 msgstr ""
 
-#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 #. :src: bpy.types.PyroControlPanelProperties.prefire_time
+#. :src: bpy.types.SKYBRUSH_OT_trigger_pyro_on_selection.prefire_time
 msgid "The time needed for the pyro effect to show up after it gets triggered"
 msgstr ""
 
