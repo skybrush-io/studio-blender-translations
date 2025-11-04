@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Skybrush Studio 3.5.0 (0)\n"
+"Project-Id-Version: Skybrush Studio 3.13.2 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
 "PO-Revision-Date: 2024-12-05 10:55+0000\n"
