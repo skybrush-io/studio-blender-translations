@@ -29,9 +29,9 @@ def sort_po_file(po_path: Path):
     active_entries = [e for e in po if not e.obsolete]
     obsolete_entries = [e for e in po if e.obsolete]
 
-    # Sort both lists by exact msgid (preserves line breaks)
-    active_entries.sort(key=lambda e: e.msgid)
-    obsolete_entries.sort(key=lambda e: e.msgid)
+    # Sort both lists by exact (lowercase) msgid (preserves line breaks)
+    active_entries.sort(key=lambda e: e.msgid.lower())
+    obsolete_entries.sort(key=lambda e: e.msgid.lower())
 
     # Create new POFile object
     new_po = polib.POFile()
