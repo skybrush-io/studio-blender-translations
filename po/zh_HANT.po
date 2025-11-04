@@ -269,7 +269,7 @@ msgstr "選擇要用於此操作的影格範圍"
 #. :src: bpy.types.SKYBRUSH_OT_validate_trajectories.frame_range:'STORYBOARD'
 #. :src: bpy.types.OBJECT_PT_skybrush_storyboard_editor
 msgid "Storyboard"
-msgstr ""
+msgstr "分鏡表"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range:'STORYBOARD'
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range:'STORYBOARD'
@@ -2646,15 +2646,6 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid ""
-#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
-#~ "to speed up light effect playback and show export, by replacing all\n"
-#~ "drone object materials to a shared template material, modifying its shader\n"
-#~ "node tree and storing color animations in the drone object's 'color' property.\n"
-#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'.Storyboard"
-#~ msgstr "分鏡表"
-
-
 #~ msgid "Transition to next"
 #~ msgstr ""
 
@@ -2676,15 +2667,6 @@ msgstr ""
 
 
 #~ msgid "Intra-slot drones per row"
-#~ msgstr ""
-
-
-#~ msgid ""
-#~ "Upgrade your old (<4.0) Skybrush Studio for Blender file content\n"
-#~ "to speed up light effect playback and show export, by replacing all\n"
-#~ "drone object materials to a shared template material, modifying its shader\n"
-#~ "node tree and storing color animations in the drone object's 'color' property.\n"
-#~ "The upgrade also changes active 3D Viewport wireframe and object color to 'OBJECT'."
 #~ msgstr ""
 
 
