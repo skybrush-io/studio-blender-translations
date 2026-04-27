@@ -3,6 +3,7 @@
 $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($False)
 foreach ($f in Get-ChildItem -Recurse) {
   if (-Not $f.PSIsContainer) {
-    [System.IO.File]::WriteAllLines($f, (Get-Content $f), $Utf8NoBomEncoding)
+    $text = [System.IO.File]::ReadAllText($f)
+    [System.IO.File]::WriteAllText($f, $text, $Utf8NoBomEncoding)
   }
 }
