@@ -31,7 +31,7 @@ Updating translation source of this repo is done by the Skybrush team from time 
 1. Temporarily copy the auto-generated `translations-tuple` section from `src/modules/sbstudio/i18n/translations.py` to the end of `ui_skybrush_studio.py`.
 2. Open Blender.
 3. Press the "Refresh I18n Data..." button in the "Manage UI translations" add-on.
-4. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files. 
+4. Press the "Export PO..." button in the "Manage UI translations" add-on and select this repo's `po` folder for exporting the new files.
 5. Make sure that the exported files are all utf-8 encoded. The `scripts\convert-encoding.ps1` script of this repo might help.
 6. In this repo run the `scripts\sort-po.py` script to sort and clean all .po and .pot files to have minimal diff.
 7. Make sure your updates on the `main` branch are synched with the `weblate` branch used by https://translate.skybrush.io.
