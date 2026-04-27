@@ -8,6 +8,13 @@ The structure of the repository is similar to the main [blender-translations](ht
 
 This repo is connected to Weblate, a cooperative translation frontend. Translation should be performed on the [Skybrush Studio for Blender translation website](https://translate.skybrush.io/projects/skybrush/studio/) accordingly, where all the languages supported by Blender should be listed.
 
+## How to preview translations?
+
+Weblate is set up to push changes to this repository every three hours. When this happens, the [_Generate translation file preview_](https://github.com/skybrush-io/studio-blender-translations/actions/workflows/generate-preview.yml) CI job automatically produces a `translation-preview.zip` output, which contains a `translations.py` file that can be used to overwrite the existing `src/modules/sbstudio/i18n/translations.py` file in a currently installed version of the addon for preview purposes. (Which can be found in the [directory defined by the blender manual](https://docs.blender.org/manual/en/latest/advanced/blender_directory_layout.html).)
+
+> [!NOTE]
+> GitHub seems to allow CI job asset downloads for authenticated users only.
+
 ## How to push translations of this repo to Skybrush Studio for Blender?
 
 Merging new translations with our add-on is done by the Skybrush team when new translations are mature enough for an update. If you wish to see your new translations in action, you can test the plugin with the following procedure:
