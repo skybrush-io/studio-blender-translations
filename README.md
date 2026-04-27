@@ -12,7 +12,9 @@ This repo is connected to Weblate, a cooperative translation frontend. Translati
 
 Merging new translations with our add-on is done by the Skybrush team when new translations are mature enough for an update. If you wish to see your new translations in action, you can test the plugin with the following procedure:
 
-0. Make sure that the latest Weblate translations of this repo (stored in the `weblate` branch) are merged into `main`.
+0. Make sure that the [GitHub](https://github.com/skybrush-io/studio-blender-translations) and [Weblate](http://translate.skybrush.io/git/skybrush/studio) remotes of this repository are in sync
+    - If no pending / outgoing / missing commits are visible on the [Weblate repository maintenance page](https://translate.skybrush.io/projects/skybrush/studio/#repository), continue to the next step
+    - Otherwise manually synchronize them by adding the remotes to the local repository, eliminating the conflicts and pushing a common state to both
 1. Open Blender with the "Skybrush Studio for Blender" add-on loaded
 2. Setup the "Manage UI translations" add-on properly in "Edit" / "Preferences" / "Add-ons":
     1. Clone the official [blender](https://github.com/blender) and [blender-translations](https://github.com/blender/blender-translations) sources from GitHub (`--depth 1` is enough in `git clone`).
