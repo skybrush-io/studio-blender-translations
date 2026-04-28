@@ -9,6 +9,7 @@
 $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($False)
 foreach ($f in Get-ChildItem "po") {
   if (-Not $f.PSIsContainer) {
+    Write-Host "Processing: $($f.FullName)"
     $text = [System.IO.File]::ReadAllText($f.FullName)
     [System.IO.File]::WriteAllText($f.FullName, $text, $Utf8NoBomEncoding)
   }
