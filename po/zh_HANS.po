@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.13.2 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-12-11 00:46+0000\n"
+"PO-Revision-Date: 2026-07-29 01:20+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.skybrush.io/projects/"
 "skybrush/studio/zh_Hans/>\n"
@@ -1297,7 +1297,7 @@ msgstr "终止颜色"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.latitude_of_show_origin
 msgid "Latitude of show origin"
-msgstr "显示原点的纬度"
+msgstr "表演原点的纬度"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude_shift
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude_shift
@@ -1358,7 +1358,7 @@ msgstr "轻FPS"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
 msgid "Longitude of show origin"
-msgstr "显示原点的经度"
+msgstr "表演原点的经度"
 
 #. :src: bpy.types.StoryboardEntry.mapping
 msgid ""
@@ -1858,13 +1858,13 @@ msgstr "建议的演出坐标系原点纬度（以度为单位）"
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.longitude_of_show_origin
 msgid ""
 "Proposed longitude of the origin of the show coordinate system, in degrees"
-msgstr "建议的显示坐标系原点经度，单位为度"
+msgstr "建议的表演坐标系原点经度，单位为度"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
 msgid ""
 "Proposed orientation of the X+ axis of the show coordinate system relative "
 "to North (towards East)"
-msgstr "建议的显示坐标系 X 轴相对于正北方向（朝向正东）的方位"
+msgstr "建议的表演坐标系 X 轴相对于正北方向（朝向正东）的方位"
 
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_threshold
 msgid "Proximity warning threshold"
@@ -2232,23 +2232,23 @@ msgstr "将故事板条目的起始帧设置为当前帧。"
 
 #. :src: bpy.types.SafetyCheckProperties.acceleration_warning_enabled
 msgid "Show acceleration warnings"
-msgstr "显示加速度警告"
+msgstr "表演加速度警告"
 
 #. :src: bpy.types.SafetyCheckProperties.altitude_warning_enabled
 msgid "Show altitude warnings"
-msgstr "显示高度警告"
+msgstr "表演高度警告"
 
 #. :src: bpy.types.FormationsPanelProperties.order_overlay_enabled
 msgid "Show order of markers"
-msgstr "显示标记的顺序"
+msgstr "表演标记的顺序"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_orientation
 msgid "Show orientation"
-msgstr "显示方向"
+msgstr "表演方向"
 
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_enabled
 msgid "Show proximity warnings"
-msgstr "显示接近警告"
+msgstr "表演接近警告"
 
 #. :src: bpy.types.DroneShowAddonFileSpecificSettings.show_type
 msgid "Show type"
@@ -2256,7 +2256,7 @@ msgstr "表演类型"
 
 #. :src: bpy.types.SafetyCheckProperties.velocity_warning_enabled
 msgid "Show velocity warnings"
-msgstr "显示速度警告"
+msgstr "表演速度警告"
 
 #. :src: bpy.types.FormationsPanelProperties.order_overlay_enabled
 msgid "Shows the order of the markers of the current formation in the 3D view"
@@ -2362,7 +2362,7 @@ msgstr "指定当飞机的高度大于高度警告阈值时，Blender是否应�
 msgid ""
 "Specifies whether Blender should show a warning when the velocity of a drone"
 " is larger than the velocity warning threshold"
-msgstr "指定当龙的速度大于速度警告阈值时，Blender是否应显示警告"
+msgstr "指定编队的速度大于速度警告阈值时，Blender是否应显示警告"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush.export_cameras
 #. :src: bpy.types.EXPORT_SCENE_OT_skybrush_and_pdf.export_cameras
@@ -2417,7 +2417,7 @@ msgstr "指定是否将此灯光效果应用于所有无人机，或仅应用于
 msgid ""
 "Specifies whether to have a proposed show origin and orientation, e.g., used"
 " in .skyc export"
-msgstr "指定是否包含建议的显示原点和方向，例如，用于 .skyc 导出文件"
+msgstr "指定是否包含建议的表演原点和方向，例如，用于 .skyc 导出文件"
 
 #. :src: bpy.types.StoryboardEntry.transition_schedule:'STAGGERED'
 msgid "Staggered"
@@ -2798,7 +2798,7 @@ msgstr "使用单独的列间距"
 #. :src:
 #. bpy.types.DroneShowAddonFileSpecificSettings.use_show_origin_and_orientation
 msgid "Use show origin and orientation"
-msgstr "使用“显示原点和方向”功能"
+msgstr "使用“表演原点和方向”功能"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.use_smart_rth
 msgid "Use smart RTH (PRO)"
