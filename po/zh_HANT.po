@@ -4,9 +4,10 @@ msgstr ""
 "Project-Id-Version: Skybrush Studio 3.13.2 (0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 13:14+0100\n"
-"PO-Revision-Date: 2025-06-28 20:56+0000\n"
+"PO-Revision-Date: 2026-11-07 07:43+0000\n"
 "Last-Translator: liangpeiyi <peiyi1412@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <http://translate.skybrush.io/projects/skybrush/studio/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <http://translate.skybrush.io/projects/"
+"skybrush/studio/zh_Hant/>\n"
 "Language: zh_HANT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,39 +17,39 @@ msgstr ""
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.empty_count
 msgid "# Empties"
-msgstr ""
+msgstr "空物件"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.nonempty_count
 msgid "# Non-empties"
-msgstr ""
+msgstr "非空物件"
 
 #. :src: bpy.types.SKYBRUSH_OT_get_formation_stats.vertex_count
 msgid "# Vertices"
-msgstr ""
+msgstr "頂點"
 
 #. :src: bpy.types.ScheduleOverride.index
 msgid ""
 "0-based index of the marker in the source formation that the override refers"
 " to"
-msgstr ""
+msgstr "覆蓋所參考的來源陣列中標記的從 0 開始的索引"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection.fade
 msgid ""
 "Add a keyframe to fade to this color from the previous keyframe instead of "
 "stepping to this color abruptly"
-msgstr ""
+msgstr "新增一個關鍵影格，從…漸變到此顏色"
 
 #. :src: bpy.types.SKYBRUSH_OT_land
 msgid "Add a landing maneuver to all the drones"
-msgstr ""
+msgstr "為所有無人機新增降落動作"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth
 msgid "Add a return-to-home maneuver to all the drones"
-msgstr ""
+msgstr "為所有無人機新增返回原點動作"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff
 msgid "Add a takeoff maneuver to all the drones"
-msgstr ""
+msgstr "為所有無人機新增起飛動作"
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_dss
 msgid ""
@@ -57,6 +58,9 @@ msgid ""
 "    selected formation.\n"
 "    "
 msgstr ""
+"從 .zip 壓縮的 DSS .PATH 或 .PATH3 檔案新增標記\n"
+"（每個檔案包含單一無人機的烘焙動畫）到目前選取的陣列。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_static_csv
 msgid ""
@@ -64,6 +68,9 @@ msgid ""
 "    single formation snapshot) to the currently selected formation.\n"
 "    "
 msgstr ""
+"從 Skybrush 相容的靜態 .csv 檔案新增標記（包含\n"
+"單一陣列快照）到目前選取的陣列。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_add_markers_from_zipped_csv
 msgid ""
@@ -72,41 +79,45 @@ msgid ""
 "    selected formation.\n"
 "    "
 msgstr ""
+"從 Skybrush 相容的 .zip 壓縮動態 .csv 檔案新增標記\n"
+"（每個檔案包含單一無人機的烘焙動畫）到目前\n"
+"選取的陣列。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_select_formation
 msgid "Adds the selected formation to the selection"
-msgstr ""
+msgstr "將選取的陣列新增到選取範圍"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid.use_advanced_settings
 msgid "Advanced settings for creating the takeoff grid"
-msgstr ""
+msgstr "建立起飛格線的進階設定"
 
 #. :src: bpy.types.LightEffect.target:'ALL'
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_target:'ALL'
 msgid "All drones"
-msgstr ""
+msgstr "所有無人機"
 
 #. :src: bpy.types.SafetyCheckProperties.min_navigation_altitude
 msgid "Altitude below which drones are not allowed to move sideways"
-msgstr ""
+msgstr "無人機低於此高度時不得�向移動"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.altitude
 msgid "Altitude to land to"
-msgstr ""
+msgstr "降落高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.altitude
 msgid "Altitude to return-to-home to"
-msgstr ""
+msgstr "返回原點高度"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.altitude
 msgid ""
 "Altitude to take off to. In case of layered takeoff the desired takeoff "
 "altitude of the lowest layer"
-msgstr ""
+msgstr "起飛高度。如果是分層起飛，則為最低層的目標起飛高度"
 
 #. :src: bpy.types.SafetyCheckProperties.altitude_warning_threshold
 msgid "Altitude warning threshold"
-msgstr ""
+msgstr "高度警告閾值"
 
 #. :src: bpy.types.DroneShowAddonGlobalSettings.api_key
 msgid "API Key"
@@ -120,57 +131,59 @@ msgstr "與 Skybrush Studio 伺服器通訊時使用的 API 金鑰"
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgctxt "Operator"
 msgid "Append Selected Formation to Storyboard"
-msgstr ""
+msgstr "將選取的陣列附加到故事板"
 
 #. :src: bpy.types.SKYBRUSH_OT_append_formation_to_storyboard
 msgid ""
 "Appends the selected formation to the end of the show, planning the "
 "transition between the last formation and the new one"
-msgstr ""
+msgstr "將選取的陣列附加到演出的結尾，並規劃最後一個陣列與新陣列之間的過渡"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid ""
 "Applies the current primary or secondary color from the LED control\n"
 "    panel to the selected drones, optionally creating a gradient."
 msgstr ""
+"從 LED 控制面板套用目前的主要或次要色彩\n"
+"到選取的無人機，可選擇建立漸層。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgid ""
 "Applies the current primary or secondary color from the LED control panel to"
 " the selected drones, optionally creating a gradient."
-msgstr ""
+msgstr "從 LED 控制面板套用目前的主要或次要色彩到選取的無人機，可選擇建立漸層。"
 
 #. :src: bpy.types.SKYBRUSH_OT_apply_colors_to_selection
 msgctxt "Operator"
 msgid "Apply Colors to Selected Drones"
-msgstr ""
+msgstr "套用色彩到選取的無人機"
 
 #. :src: bpy.types.ScheduleOverride.post_delay
 #. :src: bpy.types.StoryboardEntry.post_delay_per_drone_in_frames
 msgid "Arrival delay"
-msgstr ""
+msgstr "到達延遲"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.start_frame
 #. :src: bpy.types.SKYBRUSH_OT_rth.start_frame
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.start_frame
 msgid "at Frame"
-msgstr ""
+msgstr "在影格"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity
 msgid "Average horizontal velocity during the return-to-home maneuver"
-msgstr ""
+msgstr "返回原點動作期間的平均水平速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_land.velocity
 msgid "Average vertical velocity during the landing maneuver"
-msgstr ""
+msgstr "降落動作期間的平均垂直速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_rth.velocity_z
 msgid "Average vertical velocity during the return-to-home maneuver"
-msgstr ""
+msgstr "返回原點動作期間的平均垂直速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_takeoff.velocity
 msgid "Average vertical velocity during the takeoff maneuver"
-msgstr ""
+msgstr "起飛動作期間的平均垂直速度"
 
 #. :src: bpy.types.SKYBRUSH_OT_create_takeoff_grid
 msgid ""
@@ -178,6 +191,9 @@ msgid ""
 "    of drones.\n"
 "    "
 msgstr ""
+"建立起飛格線及對應的\n"
+"無人機集合的 Blender 操作器。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_prepare
 msgid ""
@@ -191,6 +207,14 @@ msgid ""
 "    * creating a drone template and putting it in the \"Templates\" collection\n"
 "    "
 msgstr ""
+"準備 Blender 檔案以供與\n"
+"Skybrush Studio for Blender 搭配使用的 Blender 操作器。\n"
+"\n"
+"這包含：\n"
+"\n"
+"* 如果尚未存在，建立標準的「Drones」和「Formations」集合\n"
+"* 建立無人機範本並放入「Templates」集合\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_use_selected_vertex_group_for_formation
 msgid ""
@@ -198,6 +222,9 @@ msgid ""
 "    object and designates it to be used in formations.\n"
 "    "
 msgstr ""
+"擷取選取物件的選取頂點群組，並指定用於陣列中的\n"
+"Blender 操作器。\n"
+"    "
 
 #. :src: bpy.types.StoryboardEntry
 msgid ""
@@ -205,6 +232,9 @@ msgid ""
 "    of the drone show.\n"
 "    "
 msgstr ""
+"代表無人機演出故事板中單一條目的\n"
+"Blender 屬性群組。\n"
+"    "
 
 #. :src: bpy.types.LightEffect
 msgid ""
@@ -212,6 +242,9 @@ msgid ""
 "    light effect in the drone show.\n"
 "    "
 msgstr ""
+"代表無人機演出中單一、時間及可能空間限制的\n"
+"燈光效果的 Blender 屬性群組。\n"
+"    "
 
 #. :src: bpy.types.ScheduleOverride
 msgid ""
@@ -219,6 +252,9 @@ msgid ""
 "    arrival delays of a drone in a transition.\n"
 "    "
 msgstr ""
+"代表過渡中無人機出發和到達延遲覆蓋的\n"
+"Blender 屬性群組。\n"
+"    "
 
 #. :src: bpy.types.Storyboard
 msgid ""
@@ -226,6 +262,9 @@ msgid ""
 "    drone show.\n"
 "    "
 msgstr ""
+"代表無人機演出完整故事板的\n"
+"Blender 屬性群組。\n"
+"    "
 
 #. :src: bpy.types.LightEffectCollection
 msgid ""
@@ -233,21 +272,23 @@ msgid ""
 "    on the drones in the drone show.\n"
 "    "
 msgstr ""
+"代表無人機演出中無人機套用的燈光效果清單的\n"
+"Blender 屬性群組。\n"
+"    "
 
 #. :src: bpy.types.SKYBRUSH_OT_run_full_proximity_check
 msgctxt "Operator"
 msgid "Calculate All Proximity Warnings"
-msgstr ""
+msgstr "計算所有接近警告"
 
 #. :src: bpy.types.SafetyCheckProperties.proximity_warning_target
 msgid "Check distances for"
-msgstr ""
+msgstr "檢查距離"
 
 #. :src: bpy.types.SKYBRUSH_OT_export_light_effects.selection
 #. :src: bpy.types.SKYBRUSH_OT_import_light_effects.selection
-#, fuzzy
 msgid "Choose a filter type to use for this operation"
-msgstr "選擇要用於此操作的影格範圍"
+msgstr "選擇用於此操作的篩選類型"
 
 #. :src: bpy.types.EXPORT_SCENE_OT_dac.frame_range
 #. :src: bpy.types.EXPORT_SCENE_OT_ddsf.frame_range
